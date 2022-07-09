@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LandingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [LandingController::class, 'index'])->name('landing-page.index');
+Route::get('/about-us', [LandingController::class, 'companyOverview'])->name('landing-page.company-overview');
+Route::get('/about-us/vision-mision', [LandingController::class, 'visionMision'])->name('landing-page.vision-mission');
+Route::get('/about-us/organization-chart', [LandingController::class, 'organizationChart'])->name('landing-page.organization-chart');
+Route::get('/our-projects', [LandingController::class, 'ourProjects'])->name('landing-page.our-projects');
+Route::get('/certification', [LandingController::class, 'certification'])->name('landing-page.certification');
+Route::get('/contact-us', [LandingController::class, 'contactUs'])->name('landing-page.contact-us');
+
