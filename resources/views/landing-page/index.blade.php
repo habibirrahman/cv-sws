@@ -572,11 +572,6 @@
 <!--*********************************************************************************************************-->
 <!--************ FOOTER *************************************************************************************-->
 <!--*********************************************************************************************************-->
-<footer id="ts-footer">
-  @include('landing-page.layout.footer')
-  <div class="text-center text-white pb-5" data-bg-color="#000">
-    <small>© 2018 ThemeStarz, All Rights Reserved</small>
-  </div>
-</footer>
+@include('landing-page.layout.footer')
 <!--end #footer-->
 @endsection
