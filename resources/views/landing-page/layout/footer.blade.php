@@ -81,6 +81,7 @@
   </section>
 
   <div class="text-center text-white pb-5" data-bg-color="#000">
-    <small>© 2018 ThemeStarz, All Rights Reserved</small>
+    @php ($year = date('Y'))
+    <small>© {{ $year }} CV. Sumber Waras Sukses</small>
   </div>
 </footer>
