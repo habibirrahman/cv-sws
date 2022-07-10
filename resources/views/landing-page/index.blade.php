@@ -228,7 +228,7 @@
         <div class="col-sm-4 col-lg-4">
           <div class="card text-center ts-price-box" data-animate="ts-fadeInUp">
             <div class="card-header p-0">
-              <h5 class="mb-0 py-3 text-white" data-bg-color="#7a9b97">Basic</h5>
+              <h5 class="mb-0 py-3" style="background: linear-gradient(90deg, rgba(252, 231, 39, 1) 10%, rgba(228, 110, 76, 1) 100%)">Basic</h5>
               <div class="ts-title py-5 mb-0">
                 <h3 class="mb-0 font-weight-normal">Free</h3>
                 <small class="ts-opacity__50">forever</small>
@@ -256,9 +256,10 @@
         <!--Price Box Promoted-->
         <div class="col-sm-4 col-lg-4">
           <div class="card text-center ts-price-box ts-price-box__promoted" data-animate="ts-fadeInUp" data-delay="0.1s">
-            <div class="card-header p-0" data-bg-color="#ff6a6a">
-              <h5 class="mb-0 py-3 text-white" data-bg-color="#e55f5f">Premium</h5>
-              <div class="ts-title text-white py-5 mb-0">
+            <!-- <div class="card-header p-0" data-bg-color="#e46e4c"> -->
+            <div class="card-header p-0">
+              <h5 class="mb-0 py-3" style="background: linear-gradient(90deg, rgba(252, 231, 39, 1) 10%, rgba(228, 110, 76, 1) 100%)">Premium</h5>
+              <div class="ts-title py-5 mb-0">
                 <h3 class="mb-0 font-weight-normal">
                   <sup>$</sup>9,99
                 </h3>
@@ -288,7 +289,7 @@
         <div class="col-sm-4 col-lg-4">
           <div class="card text-center ts-price-box" data-animate="ts-fadeInUp" data-delay="0.2s">
             <div class="card-header p-0">
-              <h5 class="mb-0 py-3 text-white" data-bg-color="#7a9b97">Premium</h5>
+              <h5 class="mb-0 py-3" style="background: linear-gradient(90deg, rgba(252, 231, 39, 1) 10%, rgba(228, 110, 76, 1) 100%)">Premium</h5>
               <div class="ts-title py-5 mb-0">
                 <h3 class="mb-0 font-weight-normal">
                   <sup>$</sup>19,99
@@ -391,21 +392,21 @@
   <!--end #our-clients.ts-block-->
 
   <!--SUBSCRIBE *******************************************************************************************-->
-  <section id="subscribe" class="ts-block ts-background-is-dark ts-separate-bg-element" data-bg-image="{{ asset('assets/img/bg-1920x700.jpg') }}" data-bg-image-opacity=".1" data-bg-color="#5f8d87" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-mask-top-nw-color="#fff" data-mask-bottom-wn-color="#fff">
+  <section id="subscribe" class="ts-block ts-separate-bg-element" data-bg-image="{{ asset('assets/img/bg-1920x700.jpg') }}" data-bg-image-opacity=".1" style="background: linear-gradient(90deg, rgba(252, 231, 39, 1) 10%, rgba(228, 110, 76, 1) 100%)" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-mask-top-nw-color="#fff" data-mask-bottom-wn-color="#fff">
     <div class="container">
       <h3>Subscribe For The Latest News!</h3>
       <form class="ts-form ts-form-email ts-labels-inside-input" data-php-path="assets/php/email.php">
         <div class="row">
           <div class="col-md-10">
+            <label for="email-subscribe">Email address</label>
             <div class="form-group mb-0">
-              <label for="email-subscribe">Email address</label>
               <input type="email" class="form-control" id="email-subscribe" aria-describedby="subscribe" name="email" placeholder="" required>
               <small class="form-text mt-2 ts-opacity__50">*You’ll get only relevant news once a week</small>
             </div>
             <!--end form-group-->
           </div>
           <!--end col-md-10-->
-          <div class="col-md-2">
+          <div class="col-md-2" style="margin-top: 30px;">
             <button type="submit" class="btn btn-dark w-100">Submit</button>
           </div>
           <!--end col-md-2-->
@@ -513,7 +514,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="ts-element d-inline-block mb-4" data-animate="ts-fadeInLeft">
-            <a href="#" class="ts-circle__md position-absolute ts-right__0 ts-top__0" data-bg-color="#ff6a6a">
+            <a href="#" class="ts-circle__md position-absolute ts-right__0 ts-top__0" data-bg-color="#e46e4c">
               <div class="text-white ts-h2">
                 <i class="far fa-envelope"></i>
               </div>
@@ -529,7 +530,7 @@
         <!--end col-md-4-->
         <div class="col-md-4">
           <div class="ts-element d-inline-block mb-4" data-animate="ts-fadeInLeft" data-delay=".1s">
-            <a href="#" class="ts-circle__md position-absolute ts-right__0 ts-top__0" data-bg-color="#ff6a6a">
+            <a href="#" class="ts-circle__md position-absolute ts-right__0 ts-top__0" data-bg-color="#e46e4c">
               <div class="text-white ts-h2">
                 <i class="far fa-envelope"></i>
               </div>
@@ -545,7 +546,7 @@
         <!--end col-md-4-->
         <div class="col-md-4">
           <div class="ts-element d-inline-block mb-4" data-animate="ts-fadeInLeft" data-delay=".2s">
-            <a href="#" class="ts-circle__md position-absolute ts-right__0 ts-top__0" data-bg-color="#ff6a6a">
+            <a href="#" class="ts-circle__md position-absolute ts-right__0 ts-top__0" data-bg-color="#e46e4c">
               <div class="text-white ts-h2">
                 <i class="far fa-envelope"></i>
               </div>
