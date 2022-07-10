@@ -13,7 +13,7 @@
         <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link ts-scroll {{ $data['menu'] === 'home' ? 'active' : '' }}" href="{{ route('landing-page.index') }}">Home <span class="sr-only">(current)</span></a>
           <div class="dropdown">
-            <a class="nav-item nav-link ts-scroll {{ $data['menu'] === 'about-us' ? 'active' : '' }} dropdown-toggle" href="#" role="button" id="dropdownAboutUs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-item nav-link ts-scroll {{ $data['menu'] === 'about-us' ? 'active' : '' }}" href="#" role="button" id="dropdownAboutUs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About Us
             </a>
             <div class="text-sm dropdown-menu" aria-labelledby="dropdownAboutUs">

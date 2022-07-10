@@ -4,7 +4,7 @@
 <!--*********************************************************************************************************-->
 <!--************ HERO ***************************************************************************************-->
 <!--*********************************************************************************************************-->
-<header id="ts-hero" class="ts-full-screen ts-separate-bg-element" data-mask-bottom-wn-color="#fff" data-bg-image="{{ asset('assets/img/bg-girl-02.jpg') }}" data-bg-color="#737373" data-bg-image-opacity=".8" data-bg-parallax="scroll" data-bg-parallax-speed="3">
+<header id="ts-hero" class="ts-full-screen ts-separate-bg-element" data-mask-bottom-wn-color="#fff" data-bg-image="{{ asset('assets/img/bg-1920x1100.jpg') }}" data-bg-color="#737373" data-bg-image-opacity=".8" data-bg-parallax="scroll" data-bg-parallax-speed="3">
   @include('landing-page.layout.header')
   <!--HERO CONTENT ****************************************************************************************-->
   <div class="container align-self-center align-items-center">
@@ -39,8 +39,8 @@
         <div class="col-sm-6 col-md-4 col-xl-4">
           <figure data-animate="ts-fadeInUp">
             <figure class="icon mb-5 p-2">
-              <img src="assets/img/icon-chart.png" alt="">
-              <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image="assets/svg/organic-shape-01.svg"></div>
+              <img src="{{ asset('assets/img/icon-50x80.png') }}" alt="">
+              <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
             </figure>
             <h4>Monitor Your Activity</h4>
             <p>
@@ -52,8 +52,8 @@
         <div class="col-sm-6 col-md-4 col-xl-4">
           <figure data-animate="ts-fadeInUp" data-delay="0.1s">
             <figure class="icon mb-5 p-2">
-              <img src="assets/img/icon-target.png" alt="">
-              <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image="assets/svg/organic-shape-02.svg"></div>
+              <img src="{{ asset('assets/img/icon-50x80.png') }}" alt="">
+              <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
             </figure>
             <h4>Analyze Your Results</h4>
             <p>
@@ -65,8 +65,8 @@
         <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
           <figure data-animate="ts-fadeInUp" data-delay="0.2s">
             <figure class="icon mb-5 p-2">
-              <img src="assets/img/icon-first.png" alt="">
-              <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image="assets/svg/organic-shape-03.svg"></div>
+              <img src="{{ asset('assets/img/icon-50x80.png') }}" alt="">
+              <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
             </figure>
             <h4>Get Better!</h4>
             <p>
@@ -89,19 +89,19 @@
       <!--block of logos-->
       <div class="d-block d-md-flex justify-content-between align-items-center text-center ts-partners ">
         <a href="#">
-          <img src="assets/img/logo-01.png" alt="">
+          <img src="{{ asset('assets/img/logo-150x30.png') }}" alt="">
         </a>
         <a href="#">
-          <img src="assets/img/logo-02.png" alt="">
+          <img src="{{ asset('assets/img/logo-150x30.png') }}" alt="">
         </a>
         <a href="#">
-          <img src="assets/img/logo-03.png" alt="">
+          <img src="{{ asset('assets/img/logo-150x30.png') }}" alt="">
         </a>
         <a href="#">
-          <img src="assets/img/logo-04.png" alt="">
+          <img src="{{ asset('assets/img/logo-150x30.png') }}" alt="">
         </a>
         <a href="#">
-          <img src="assets/img/logo-05.png" alt="">
+          <img src="{{ asset('assets/img/logo-150x30.png') }}" alt="">
         </a>
       </div>
       <!--end logos-->
@@ -111,7 +111,7 @@
   <!--END PARTNERS ****************************************************************************************-->
 
   <!--NUMBERS *********************************************************************************************-->
-  <section id="numbers" class="ts-block ts-background-is-dark ts-separate-bg-element" data-bg-image="assets/img/bg-table.jpg" data-bg-image-opacity=".5" data-bg-color="#2d2d2d" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-mask-top-nw-color="#f6f6f6" data-mask-bottom-wn-color="#fff">
+  <section id="numbers" class="ts-block ts-background-is-dark ts-separate-bg-element" data-bg-image="{{ asset('assets/img/bg-1920x640.jpg') }}" data-bg-image-opacity=".5" data-bg-color="#2d2d2d" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-mask-top-nw-color="#f6f6f6" data-mask-bottom-wn-color="#fff">
     <div class="container">
       <div class="ts-promo-numbers">
         <div class="row">
@@ -172,7 +172,7 @@
         <!--end col-xl-5-->
         <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
           <div class="px-3">
-            <img src="assets/img/image-device-01.png" class="mw-100" alt="">
+            <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
           </div>
         </div>
         <!--end col-xl-7-->
@@ -189,7 +189,7 @@
       <div class="row">
         <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
           <div class="px-3 mb-4">
-            <img src="assets/img/image-device-02.png" class="mw-100" alt="">
+            <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
           </div>
         </div>
         <!--end col-xl-7-->
@@ -217,7 +217,7 @@
   <!--END ADVANCED FEATURES *******************************************************************************-->
 
   <!--PRICING *********************************************************************************************-->
-  <section id="pricing" class="ts-block ts-separate-bg-element" data-bg-image="assets/img/bg-hand-mobile.jpg" data-bg-color="#000" data-bg-image-opacity=".5" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-mask-top-nw-color="#fff" data-mask-bottom-wn-color="#eaeaea">
+  <section id="pricing" class="ts-block ts-separate-bg-element" data-bg-image="{{ asset('assets/img/bg-1920x1400.jpg') }}" data-bg-color="#000" data-bg-image-opacity=".5" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-mask-top-nw-color="#fff" data-mask-bottom-wn-color="#eaeaea">
     <div class="container">
       <div class="ts-title text-center text-white">
         <h2>Affordable Prices</h2>
@@ -345,7 +345,7 @@
           <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
             <blockquote class="blockquote">
               <!--person image-->
-              <div class="ts-circle__lg" data-bg-image="assets/img/person-05.jpg"></div>
+              <div class="ts-circle__lg" data-bg-image="{{ asset('assets/img/circle-270x270.jpg') }}"></div>
               <!--end person image-->
               <!--cite-->
               <p>
@@ -363,7 +363,7 @@
             <!--end blockquote-->
             <blockquote class="blockquote">
               <!--person image-->
-              <div class="ts-circle__lg" data-bg-image="assets/img/person-05.jpg"></div>
+              <div class="ts-circle__lg" data-bg-image="{{ asset('assets/img/circle-270x270.jpg') }}"></div>
               <!--end person image-->
               <!--cite-->
               <p>
@@ -391,7 +391,7 @@
   <!--end #our-clients.ts-block-->
 
   <!--SUBSCRIBE *******************************************************************************************-->
-  <section id="subscribe" class="ts-block ts-background-is-dark ts-separate-bg-element" data-bg-image="assets/img/bg-girl-book.jpg" data-bg-image-opacity=".1" data-bg-color="#5f8d87" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-mask-top-nw-color="#fff" data-mask-bottom-wn-color="#fff">
+  <section id="subscribe" class="ts-block ts-background-is-dark ts-separate-bg-element" data-bg-image="{{ asset('assets/img/bg-1920x700.jpg') }}" data-bg-image-opacity=".1" data-bg-color="#5f8d87" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-mask-top-nw-color="#fff" data-mask-bottom-wn-color="#fff">
     <div class="container">
       <h3>Subscribe For The Latest News!</h3>
       <form class="ts-form ts-form-email ts-labels-inside-input" data-php-path="assets/php/email.php">
@@ -429,7 +429,7 @@
         <div class="col-md-4">
           <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp">
             <figure class="icon">
-              <img src="assets/img/icon-chart.png" class="" alt="">
+              <img src="{{ asset('assets/img/icon-50x80.png') }}" class="" alt="">
             </figure>
             <h4 class="mb-2">Monitor Your Activity</h4>
             <p>
@@ -438,7 +438,7 @@
           </figure>
           <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".1s">
             <figure class="icon">
-              <img src="assets/img/icon-target.png" class="" alt="">
+              <img src="{{ asset('assets/img/icon-50x80.png') }}" class="" alt="">
             </figure>
             <h4 class="mb-2">Analyze Your Results</h4>
             <p>
@@ -447,7 +447,7 @@
           </figure>
           <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".3s">
             <figure class="icon">
-              <img src="assets/img/icon-first.png" class="" alt="">
+              <img src="{{ asset('assets/img/icon-50x80.png') }}" class="" alt="">
             </figure>
             <h4 class="mb-2">Get Better!</h4>
             <p>
@@ -459,7 +459,7 @@
 
         <div class="col-md-4 my-5 d-flex justify-content-center align-items-center">
           <div class="image position-relative">
-            <img src="assets/img/img-phone.png" class="mw-100" alt="" data-animate="ts-zoomInShort" data-delay=".1s">
+            <img src="{{ asset('assets/img/img-300x550.png') }}" class="mw-100" alt="" data-animate="ts-zoomInShort" data-delay=".1s">
           </div>
         </div>
         <!--end col-md-4-->
@@ -467,7 +467,7 @@
         <div class="col-md-4">
           <figure class="ts-xs-text-center" data-animate="ts-fadeInUp">
             <figure class="icon">
-              <img src="assets/img/icon-chat.png" class="" alt="">
+              <img src="{{ asset('assets/img/icon-50x80.png') }}" class="" alt="">
             </figure>
             <h4 class="mb-2">Support Chat</h4>
             <p>
@@ -476,7 +476,7 @@
           </figure>
           <figure class="ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".1s">
             <figure class="icon">
-              <img src="assets/img/icon-map.png" class="" alt="">
+              <img src="{{ asset('assets/img/icon-50x80.png') }}" class="" alt="">
             </figure>
             <h4 class="mb-2">Runs on Any Place</h4>
             <p>
@@ -485,7 +485,7 @@
           </figure>
           <figure class="ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".3s">
             <figure class="icon">
-              <img src="assets/img/icon-video.png" class="" alt="">
+              <img src="{{ asset('assets/img/icon-50x80.png') }}" class="" alt="">
             </figure>
             <h4 class="mb-2">Video Tutorials</h4>
             <p>
@@ -501,7 +501,7 @@
   </section>
   <!--END FEATURES ****************************************************************************************-->
 
-  <img class="ts-hr-skewed" src="assets/img/hr-skewed.png">
+  <img class="ts-hr-skewed" src="{{ asset('assets/img/hr-skewed.png') }}">
 
   <!--OUR TEAM ********************************************************************************************-->
   <section id="our-team" class="ts-block text-center">
@@ -519,7 +519,7 @@
               </div>
             </a>
             <!--end small circle-->
-            <div class="ts-circle__xxl ts-shadow__md mb-4" data-bg-image="assets/img/person-01.jpg"></div>
+            <div class="ts-circle__xxl ts-shadow__md mb-4" data-bg-image="{{ asset('assets/img/circle-270x270.jpg') }}"></div>
             <!--end image circle-->
             <h4 class="my-2">Jane Doe</h4>
             <h5 class="ts-opacity__50">Company CEO</h5>
@@ -535,7 +535,7 @@
               </div>
             </a>
             <!--end small circle-->
-            <div class="ts-circle__xxl ts-shadow__md mb-4" data-bg-image="assets/img/person-02.jpg"></div>
+            <div class="ts-circle__xxl ts-shadow__md mb-4" data-bg-image="{{ asset('assets/img/circle-270x270.jpg') }}"></div>
             <!--end image circle-->
             <h4 class="my-2">Peter Daniels</h4>
             <h5 class="ts-opacity__50">Marketing</h5>
@@ -551,7 +551,7 @@
               </div>
             </a>
             <!--end small circle-->
-            <div class="ts-circle__xxl ts-shadow__md mb-4" data-bg-image="assets/img/person-03.jpg"></div>
+            <div class="ts-circle__xxl ts-shadow__md mb-4" data-bg-image="{{ asset('assets/img/circle-270x270.jpg') }}"></div>
             <!--end image circle-->
             <h4 class="my-2">Suzane Smith</h4>
             <h5 class="ts-opacity__50">Support Team</h5>
