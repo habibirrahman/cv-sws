@@ -52,6 +52,9 @@ class LandingController extends Controller
     // show certification
     public function certification()
     {
+        $certifications = [
+            0 => [ 'id' => 1 ],
+        ];
         $data = [
             'menu' => 'certification',
             'submenu' => '',

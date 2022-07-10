@@ -22,3 +22,13 @@ Route::get('/our-projects', [LandingController::class, 'ourProjects'])->name('la
 Route::get('/certification', [LandingController::class, 'certification'])->name('landing-page.certification');
 Route::get('/contact-us', [LandingController::class, 'contactUs'])->name('landing-page.contact-us');
 
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
