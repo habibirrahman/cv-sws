@@ -19,7 +19,7 @@ Route::get('/about-us', [LandingController::class, 'companyOverview'])->name('la
 Route::get('/about-us/vision-mision', [LandingController::class, 'visionMision'])->name('landing-page.vision-mission');
 Route::get('/about-us/organization-chart', [LandingController::class, 'organizationChart'])->name('landing-page.organization-chart');
 Route::get('/our-projects', [LandingController::class, 'ourProjects'])->name('landing-page.our-projects');
-Route::get('/certification', [LandingController::class, 'certification'])->name('landing-page.certification');
+Route::get('/certifications', [LandingController::class, 'certifications'])->name('landing-page.certifications');
 Route::get('/contact-us', [LandingController::class, 'contactUs'])->name('landing-page.contact-us');
 
 

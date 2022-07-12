@@ -1,18 +1,11 @@
 @extends('landing-page.layout.app')
 @section('content')
-
-<!--*********************************************************************************************************-->
-<!--************ HERO ***************************************************************************************-->
-<!--*********************************************************************************************************-->
-<header id="ts-hero" class="ts-full-screen ts-separate-bg-element" data-mask-bottom-wn-color="#fff" data-bg-image="{{ asset('assets/img/bg-1920x1100.jpg') }}" data-bg-color="#737373" data-bg-image-opacity=".8" data-bg-parallax="scroll" data-bg-parallax-speed="3">
-  @include('landing-page.layout.header')
-</header>
-<!--end #hero-->
+@include('landing-page.layout.header')
 
 <!--*********************************************************************************************************-->
 <!--************ CONTENT ************************************************************************************-->
 <!--*********************************************************************************************************-->
-<main id="ts-content">
+<main id="ts-content" style="padding-top: 2rem;">
   <!--ADVANCED FEATURES ***********************************************************************************-->
   <section id="advanced-features" class="ts-block">
     <div class="container">
@@ -33,7 +26,7 @@
             perusahaan yang mandiri CV. Sumber Waras Sukses.
           </p>
           <p>
-            CV.SUMBER WARAS SUKSES didirikan di
+            CV. Sumber Waras Sukses didirikan di
             Malang pada tanggal 1 Februari 2018. Sekalipun
             masih relatif muda, namun para engineer kami
             adalah personil yang telah mempunyai
@@ -83,7 +76,7 @@
           <p>
             Dengan didukung tenaga kerja yang
             profesional dan terlatih dalam bidang
-            konstruksi, mekanikal, piping ,insulation pipa,
+            konstruksi, mekanikal, piping, insulation pipa,
             sipil dan maintenance service kami selalu
             mengedepankan kualitas, kecepatan serta
             harga yang terbaik untuk membuat seluruh

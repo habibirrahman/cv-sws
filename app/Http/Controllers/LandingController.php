@@ -49,17 +49,17 @@ class LandingController extends Controller
         ];
         return view('landing-page.our-projects', compact('data'));
     }
-    // show certification
-    public function certification()
+    // show certifications
+    public function certifications()
     {
         $certifications = [
             0 => [ 'id' => 1 ],
         ];
         $data = [
-            'menu' => 'certification',
+            'menu' => 'certifications',
             'submenu' => '',
         ];
-        return view('landing-page.certification', compact('data'));
+        return view('landing-page.certifications', compact('data'));
     }
     // show contact us
     public function contactUs()

@@ -26,11 +26,12 @@ $(document).ready(function($) {
 
 //  Background
 
-    $("[data-bg-color], [data-bg-image], [data-bg-particles]").each(function() {
+    $("[data-bg-color], [data-bg-image], [data-bg-particles], [data-pages]").each(function() {
         var $this = $(this);
-
+        let pages = $this.attr("data-pages");
         if( $this.hasClass("ts-separate-bg-element") ){
-            $this.append('<div class="ts-background">');
+            if (pages === undefined || pages === 'home') $this.append('<div class="ts-background">');
+            else $this.append('<div class="ts-background always-show">');
 
             // Background Color
 

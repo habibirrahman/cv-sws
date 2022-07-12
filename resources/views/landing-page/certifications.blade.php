@@ -1,22 +1,18 @@
 @extends('landing-page.layout.app')
 @section('content')
-
-<!--*********************************************************************************************************-->
-<!--************ HERO ***************************************************************************************-->
-<!--*********************************************************************************************************-->
-<header id="ts-hero" class="ts-full-screen ts-separate-bg-element" data-mask-bottom-wn-color="#fff" data-bg-image="{{ asset('assets/img/bg-1920x1100.jpg') }}" data-bg-color="#737373" data-bg-image-opacity=".8" data-bg-parallax="scroll" data-bg-parallax-speed="3">
-  @include('landing-page.layout.header')
-</header>
-<!--end #hero-->
+@include('landing-page.layout.header')
 
 <!--*********************************************************************************************************-->
 <!--************ CONTENT ************************************************************************************-->
 <!--*********************************************************************************************************-->
-<main id="ts-content">
+<main id="ts-content" style="padding-top: 2rem;">
   <!--ADVANCED FEATURES ***********************************************************************************-->
   <section id="advanced-features" class="ts-block">
     <div class="container">
-      <div class="row pb-4">
+      <div class="ts-title text-center">
+        <h2>Certifications</h2>
+      </div>
+      <div class="row col-sm-12 col-md-12 col-xl-10 ml-auto mr-auto" style="padding-bottom: 4rem;">
         <div class="col-sm-8 col-md-8 col-xl-8" data-animate="ts-fadeInUp">
           <div class="ts-title">
             <h2>Akta Pendirian</h2>
@@ -49,14 +45,14 @@
         <!--end col-xl-7-->
       </div>
       <!--end row-->
-      <div class="row pb-4">
-        <div class="col-md-4 col-xl-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
+      <div class="row col-sm-12 col-md-12 col-xl-10 ml-auto mr-auto" style="padding-bottom: 4rem;">
+        <div class="col-sm-4 col-md-4 col-xl-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
           <div class="px-3 mb-4">
             <img src="{{ asset('assets/img/800x1200.png') }}" class="mw-100" alt="">
           </div>
         </div>
         <!--end col-xl-7-->
-        <div class="col-md-8 col-xl-8" data-animate="ts-fadeInUp">
+        <div class="col-sm-8 col-md-8 col-xl-8" data-animate="ts-fadeInUp">
           <div class="ts-title">
             <h2>Pendaftaran di Pengadilan Negeri</h2>
           </div>
