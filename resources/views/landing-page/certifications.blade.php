@@ -30,7 +30,7 @@
         </div>
         <!--end col-xl-5-->
         <div class="col-sm-4 col-md-4 col-xl-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-          <div class="px-3 mb-4">
+          <div class="mb-4">
             <img src="{{ asset('assets/img/800x1200.png') }}" class="mw-100" alt="">
           </div>
         </div>
@@ -39,7 +39,7 @@
       <!--end row-->
       <div class="col-sm-12 col-md-12 col-xl-10 ml-auto mr-auto d-flex flex-column flex-sm-row mb-4">
         <div class="col-sm-4 col-md-4 col-xl-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-          <div class="px-3 mb-4">
+          <div class="mb-4">
             <img src="{{ asset('assets/img/800x1200.png') }}" class="mw-100" alt="">
           </div>
         </div>
