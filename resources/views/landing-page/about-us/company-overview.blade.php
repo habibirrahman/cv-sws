@@ -5,7 +5,7 @@
 <!--*********************************************************************************************************-->
 <!--************ CONTENT ************************************************************************************-->
 <!--*********************************************************************************************************-->
-<main id="ts-content" style="padding-top: 2rem;">
+<main id="ts-content" style="padding-top: 5rem;">
   <!--ADVANCED FEATURES ***********************************************************************************-->
   <section id="advanced-features" class="ts-block">
     <div class="container">
@@ -51,16 +51,12 @@
         </div>
         <!--end col-xl-5-->
         <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-          <div class="px-3">
+          <div class="px-3 mb-4">
             <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
           </div>
         </div>
         <!--end col-xl-7-->
       </div>
-      <!--end row-->
-    </div>
-    <!--end container-->
-    <div class="container">
       <div class="row">
         <div class="col-md-12 col-xl-12" data-animate="ts-fadeInUp">
           <p>

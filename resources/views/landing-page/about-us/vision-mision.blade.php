@@ -61,8 +61,8 @@
       </div>
       <!--end row-->
       <div class="form-group clearfix">
-        <a role="button" class="btn btn-primary float-left" id="to-company-overview" href="{{ route('landing-page.company-overview') }}">{{ "< Company Overview" }}</a>
-        <a role="button" class="btn btn-primary float-right" id="to-organization-chart" href="{{ route('landing-page.organization-chart') }}">{{ "Organization Chart >" }}</a>
+        <a role="button" class="btn btn-primary float-left mb-4" id="to-company-overview" href="{{ route('landing-page.company-overview') }}">{{ "< Company Overview" }}</a>
+        <a role="button" class="btn btn-primary float-right mb-4" id="to-organization-chart" href="{{ route('landing-page.organization-chart') }}">{{ "Organization Chart >" }}</a>
       </div>
     </div>
     <!--end container-->

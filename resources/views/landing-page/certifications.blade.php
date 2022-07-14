@@ -5,7 +5,7 @@
 <!--*********************************************************************************************************-->
 <!--************ CONTENT ************************************************************************************-->
 <!--*********************************************************************************************************-->
-<main id="ts-content" style="padding-top: 2rem;">
+<main id="ts-content" style="padding-top: 5rem;">
   <!--ADVANCED FEATURES ***********************************************************************************-->
   <section id="advanced-features" class="ts-block">
     <div class="container">
@@ -14,27 +14,17 @@
       </div>
       <div class="row col-sm-12 col-md-12 col-xl-10 ml-auto mr-auto" style="padding-bottom: 4rem;">
         <div class="col-sm-8 col-md-8 col-xl-8" data-animate="ts-fadeInUp">
-          <div class="ts-title">
-            <h2>Akta Pendirian</h2>
+          <div class="ts-title mb-0">
+            <h2 class="mb-2">Akta Pendirian</h2>
           </div>
           <!--end ts-title-->
-          <table class="ts-list-colored-bullets">
-            <tr>
-              <td width="160">Notaris</td>
-              <td>:</td>
-              <td>Wulandari Saputri, SH., M.Kn</td>
-            </tr>
-            <tr>
-              <td>Nomor</td>
-              <td>:</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>Tanggal</td>
-              <td>:</td>
-              <td>01 February 2018</td>
-            </tr>
-          </table>
+          <p>
+            <pre style="font-size: 1rem;">
+  <i>Notaris    : Wulandari Saputri, SH., M.Kn</i>
+  <i>Nomor      : 1</i>
+  <i>Tanggal    : 01 Februari 2018</i>
+            </pre>
+          </p>
         </div>
         <!--end col-xl-5-->
         <div class="col-sm-4 col-md-4 col-xl-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
@@ -53,28 +43,18 @@
         </div>
         <!--end col-xl-7-->
         <div class="col-sm-8 col-md-8 col-xl-8" data-animate="ts-fadeInUp">
-          <div class="ts-title">
-            <h2>Pendaftaran di Pengadilan Negeri</h2>
+          <div class="ts-title mb-0">
+            <h2 class="mb-2">Pendaftaran di Pengadilan Negeri</h2>
           </div>
           <!--end ts-title-->
-
-          <table class="ts-list-colored-bullets">
-            <tr>
-              <td width="160">Kota / Kelas</td>
-              <td>:</td>
-              <td>Kepanjen / Kelas I-B</td>
-            </tr>
-            <tr>
-              <td>Nomor</td>
-              <td>:</td>
-              <td>60/CV/II/2018</td>
-            </tr>
-            <tr>
-              <td>Tanggal</td>
-              <td>:</td>
-              <td>07 February 2018</td>
-            </tr>
-          </table>
+          <p>
+          <pre style="font-size: 1rem;">
+  <i>Kota       : Kepanjen</i>
+  <i>Kelas      : Kelas I-B</i>
+  <i>Nomor      : 60/CV/II/2018</i>
+  <i>Tanggal    : 07 Februari 2018</i>
+            </pre>
+          </p>
         </div>
         <!--end col-xl-5-->
       </div>

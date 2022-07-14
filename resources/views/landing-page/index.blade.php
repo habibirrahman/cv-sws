@@ -36,12 +36,6 @@
             dan karir profesional kami sebuah melalui
             perusahaan yang mandiri CV. Sumber Waras Sukses.
           </p>
-          <p>
-            Pada saat ini CV. Sumber Waras Sukses berkomitmen menawarkan dan memberikan solusi terbaik
-            dalam melaksanakan pekerjaan sesuai kontrak yang disepakati. Komitmen perusahaan tersebut dibangun
-            dengan tujuan untuk meningkatkan kepuasan pelanggan secara nyata dengan menghasilkan kontruksi
-            berkualitas dan tepat waktu yang didukung dengan tenaga SDM yang profesional.
-          </p>
           <!-- <ul class="ts-list-colored-bullets">
             <li>Sed a venenatis mi, vel tempus neque. </li>
             <li>Diam in hendrerit facilisis, enim diam cursus augue.</li>
@@ -49,11 +43,17 @@
           </ul> -->
         </div>
         <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-          <div class="px-3">
+          <div class="px-3 mb-4">
             <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
           </div>
         </div>
       </div>
+      <p>
+        Pada saat ini CV. Sumber Waras Sukses berkomitmen menawarkan dan memberikan solusi terbaik
+        dalam melaksanakan pekerjaan sesuai kontrak yang disepakati. Komitmen perusahaan tersebut dibangun
+        dengan tujuan untuk meningkatkan kepuasan pelanggan secara nyata dengan menghasilkan kontruksi
+        berkualitas dan tepat waktu yang didukung dengan tenaga SDM yang profesional.
+      </p>
     </div>
   </section>
   <section id="scope-of-works" class="ts-block text-center pt-4">
@@ -175,9 +175,9 @@
             <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
           </div>
         </div>
-        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp">
+        <div class="col-md-5 col-xl-5 mb-4" data-animate="ts-fadeInUp">
           <div class="ts-title mb-0">
-            <h3>Pengecatan Sandblast</h3>
+            <h3 class="mb-2">Pengecatan Sandblast</h3>
           </div>
           <p class="mb-1">
             Pekerjaan pengecatan material struktur pendukung evaporator 60B
@@ -187,23 +187,23 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 col-xl-3" data-animate="ts-fadeInUp">
-          <div class="ts-title mb-0">
-            <h4>Pembangunan Gedung TPS B3</h4>
+        <div class="col-md-3 col-xl-3 mb-4" data-animate="ts-fadeInUp">
+          <div class="ts-title mb-0 mt-4">
+            <h4 class="mb-2">Pembangunan Gedung TPS B3</h4>
           </div>
           <p class="mb-1">
             Pekerjaan pembangunan gedung TPS B3 di area PT. Molindo Raya Industrial Lawang
           </p>
           23 Sept 2021
         </div>
-        <div class="col-md-3 col-xl-3 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
+        <div class="col-md-3 col-xl-3 text-center mb-4" data-animate="ts-fadeInUp" data-delay="0.1s">
           <div class="px-0">
             <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
           </div>
         </div>
-        <div class="col-md-3 col-xl-3" data-animate="ts-fadeInUp">
-          <div class="ts-title mb-0">
-            <h4>Insulation Pipa</h4>
+        <div class="col-md-3 col-xl-3 mb-4" data-animate="ts-fadeInUp">
+          <div class="ts-title mb-0 mt-4">
+            <h4 class="mb-2">Insulation Pipa</h4>
           </div>
           <p class="mb-1">
             Pekerjaan insulation pipa di area
@@ -212,7 +212,7 @@
           </p>
           21 Sept 2021
         </div>
-        <div class="col-md-3 col-xl-3 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
+        <div class="col-md-3 col-xl-3 text-center mb-4" data-animate="ts-fadeInUp" data-delay="0.1s">
           <div class="px-0">
             <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
           </div>
@@ -244,9 +244,9 @@
           <img src="{{ asset('assets/img/logo-150x30.png') }}" alt="">
         </a>
       </div>
-      
+
     </div>
-    
+
   </section>
 
   <!-- <section id="what-youll-get" class="ts-block text-center pt-4">

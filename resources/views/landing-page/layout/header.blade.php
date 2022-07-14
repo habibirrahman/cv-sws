@@ -1,7 +1,7 @@
   <!--NAVIGATION ******************************************************************************************-->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element" data-bg-color="#1d1d1d" data-pages="{{ $data['menu'] }}">
     <div class="container">
-      <a class="navbar-brand" href="#page-top">
+      <a class="navbar-brand" href="{{ route('landing-page.index') }}">
         <img src="{{ asset('assets/img/logo-new.png') }}" alt="logo-sws" width="100">
       </a>
       <!--end navbar-brand-->

@@ -5,7 +5,7 @@
 <!--*********************************************************************************************************-->
 <!--************ CONTENT ************************************************************************************-->
 <!--*********************************************************************************************************-->
-<main id="ts-content" style="padding-top: 2rem;">
+<main id="ts-content" style="padding-top: 5rem;">
 
   <!--OUR TEAM ********************************************************************************************-->
   <section id="our-team" class="ts-block text-center">
@@ -30,7 +30,7 @@
             <!--end image circle-->
             <h4 class="my-2">Modifikasi Platform WTP N</h4>
             <h5 class="ts-opacity__50">PT. Otsuka Indonesia di Lawang</h5>
-            <p>07 Nov 2018</p>
+            <p class="text-center">07 Nov 2018</p>
           </div>
           <!--end ts-element-->
         </div>
@@ -50,7 +50,7 @@
             <!--end image circle-->
             <h4 class="my-2">Fabrikasi dan Pemasangan Ducting</h4>
             <h5 class="ts-opacity__50">PT. Molindo Raya Industrial Lawang</h5>
-            <p>04 Jan 2019</p>
+            <p class="text-center">04 Jan 2019</p>
           </div>
           <!--end ts-element-->
         </div>
@@ -70,7 +70,7 @@
             <!--end image circle-->
             <h4 class="my-2">Repair Saluran Dryer 2 by Design</h4>
             <h5 class="ts-opacity__50">PT. Molindo Raya Industrial Lawang</h5>
-            <p>08 Jan 2019</p>
+            <p class="text-center">08 Jan 2019</p>
           </div>
           <!--end ts-element-->
         </div>
@@ -90,7 +90,7 @@
             <!--end image circle-->
             <h4 class="my-2">Pembongkaran Kondensor dan Tabung Ex-Header Steam Lt.5 dan Lt.6</h4>
             <h5 class="ts-opacity__50">PT. Molindo Raya Industrial Lawang</h5>
-            <p>12 Jan 2019</p>
+            <p class="text-center">12 Jan 2019</p>
           </div>
           <!--end ts-element-->
         </div>
@@ -110,7 +110,7 @@
             <!--end image circle-->
             <h4 class="my-2">Reparasi Quench Tangki Bocor DP 3</h4>
             <h5 class="ts-opacity__50">PT. Molindo Raya Industrial Lawang</h5>
-            <p>16 Jan 2019</p>
+            <p class="text-center">16 Jan 2019</p>
           </div>
           <!--end ts-element-->
         </div>
@@ -130,7 +130,7 @@
             <!--end image circle-->
             <h4 class="my-2">Modifikasi Saluran Pipa CWS dan CWR</h4>
             <h5 class="ts-opacity__50">PT. Molindo Raya Industrial Lawang</h5>
-            <p>25 Jan 2019</p>
+            <p class="text-center">25 Jan 2019</p>
           </div>
           <!--end ts-element-->
         </div>
