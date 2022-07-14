@@ -101,7 +101,7 @@
       </div>
       <!--end row-->
       <div class="form-group clearfix">
-        <a role="button" class="btn btn-primary float-right" id="form-contact-submit" href="{{ route('landing-page.vision-mission') }}">Vision and Mission</a>
+        <a role="button" class="btn btn-primary float-right" id="to-vision-mission" href="{{ route('landing-page.vision-mission') }}">{{ "Vision and Mission >" }}</a>
       </div>
     </div>
     <!--end container-->

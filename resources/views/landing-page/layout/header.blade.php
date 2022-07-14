@@ -24,8 +24,8 @@
           </div>
           <a class="nav-item nav-link ts-scroll {{ $data['menu'] === 'our-projects' ? 'active' : '' }}" href="{{ route('landing-page.our-projects') }}">Our Projects</a>
           <a class="nav-item nav-link ts-scroll {{ $data['menu'] === 'certifications' ? 'active' : '' }}" href="{{ route('landing-page.certifications') }}">Certifications</a>
-          <a class="nav-item nav-link ts-scroll {{ $data['menu'] === 'contact-us' ? 'active' : '' }}" href="{{ route('landing-page.contact-us') }}">Contact Us</a>
-          <!-- <a class="nav-item nav-link ts-scroll" href="#form-contact">Contact</a> -->
+          <!-- <a class="nav-item nav-link ts-scroll {{ $data['menu'] === 'contact-us' ? 'active' : '' }}" href="{{ route('landing-page.contact-us') }}">Contact Us</a> -->
+          <a class="nav-item nav-link ts-scroll" href="#contact">Contact</a>
           <!-- <a class="ts-scroll btn btn-outline-light btn-sm m-1 px-3 ts-width__auto" href="#">
             <i class="fas fa-sign-in-alt ts-opacity__80 pr-2"></i>
             Log In
