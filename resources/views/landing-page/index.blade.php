@@ -187,34 +187,38 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 col-xl-3 mb-4" data-animate="ts-fadeInUp">
-          <div class="ts-title mb-0 mt-4">
-            <h4 class="mb-2">Pembangunan Gedung TPS B3</h4>
+        <div class="col-sm-6 col-md-6 col-xl-6 d-flex flex-column-reverse flex-sm-row mb-4 px-0">
+          <div class="col-md-6 col-xl-6" data-animate="ts-fadeInUp">
+            <div class="ts-title mb-0 mt-4">
+              <h4 class="mb-2">Pembangunan Gedung TPS B3</h4>
+            </div>
+            <p class="mb-1">
+              Pekerjaan pembangunan gedung TPS B3 di area PT. Molindo Raya Industrial Lawang
+            </p>
+            23 Sept 2021
           </div>
-          <p class="mb-1">
-            Pekerjaan pembangunan gedung TPS B3 di area PT. Molindo Raya Industrial Lawang
-          </p>
-          23 Sept 2021
-        </div>
-        <div class="col-md-3 col-xl-3 text-center mb-4" data-animate="ts-fadeInUp" data-delay="0.1s">
-          <div class="px-0">
-            <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
+          <div class="col-md-6 col-xl-6 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
+            <div class="px-0">
+              <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
+            </div>
           </div>
         </div>
-        <div class="col-md-3 col-xl-3 mb-4" data-animate="ts-fadeInUp">
-          <div class="ts-title mb-0 mt-4">
-            <h4 class="mb-2">Insulation Pipa</h4>
+        <div class="col-sm-6 col-md-6 col-xl-6 d-flex flex-column-reverse flex-sm-row mb-4 px-0">
+          <div class="col-md-6 col-xl-6" data-animate="ts-fadeInUp">
+            <div class="ts-title mb-0 mt-4">
+              <h4 class="mb-2">Insulation Pipa</h4>
+            </div>
+            <p class="mb-1">
+              Pekerjaan insulation pipa di area
+              Preparation dan area Filling PT Meiji
+              Indonesian Pharmaceutical Industries.
+            </p>
+            21 Sept 2021
           </div>
-          <p class="mb-1">
-            Pekerjaan insulation pipa di area
-            Preparation dan area Filling PT Meiji
-            Indonesian Pharmaceutical Industries.
-          </p>
-          21 Sept 2021
-        </div>
-        <div class="col-md-3 col-xl-3 text-center mb-4" data-animate="ts-fadeInUp" data-delay="0.1s">
-          <div class="px-0">
-            <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
+          <div class="col-md-6 col-xl-6 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
+            <div class="px-0">
+              <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
+            </div>
           </div>
         </div>
       </div>
