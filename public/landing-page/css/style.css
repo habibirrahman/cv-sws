@@ -946,12 +946,12 @@ blockquote h6 {
     opacity: .5;
 }
 
-blockquote img {
+blockquote img, .certificate-image img, .project-image img  {
     cursor: pointer;
     transition: 0.3s;
 }
 
-blockquote img:hover {
+blockquote img:hover, .certificate-image img:hover, .project-image img:hover {
     opacity: 0.7;
 }
 

@@ -18,11 +18,11 @@
         <div class="col-6 col-md-4">
           <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-1" onclick="openModal('project-1')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Modifikasi Platform WTP N">
+              <img id="project-1" onclick="openModalImage('project-1')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Modifikasi Platform WTP N">
             </blockquote>
             <!--end blockquote-->
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-2" onclick="openModal('project-2')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Modifikasi Platform WTP N">
+              <img id="project-2" onclick="openModalImage('project-2')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Modifikasi Platform WTP N">
             </blockquote>
             <!--end blockquote-->
           </div>
@@ -38,11 +38,11 @@
         <div class="col-6 col-md-4">
           <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-3" onclick="openModal('project-3')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Fabrikasi dan Pemasangan Ducting">
+              <img id="project-3" onclick="openModalImage('project-3')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Fabrikasi dan Pemasangan Ducting">
             </blockquote>
             <!--end blockquote-->
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-4" onclick="openModal('project-4')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Fabrikasi dan Pemasangan Ducting">
+              <img id="project-4" onclick="openModalImage('project-4')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Fabrikasi dan Pemasangan Ducting">
             </blockquote>
             <!--end blockquote-->
           </div>
@@ -58,11 +58,11 @@
         <div class="col-6 col-md-4">
           <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-5" onclick="openModal('project-5')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Repair Saluran Dryer 2 by Design">
+              <img id="project-5" onclick="openModalImage('project-5')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Repair Saluran Dryer 2 by Design">
             </blockquote>
             <!--end blockquote-->
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-6" onclick="openModal('project-6')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Repair Saluran Dryer 2 by Design">
+              <img id="project-6" onclick="openModalImage('project-6')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Repair Saluran Dryer 2 by Design">
             </blockquote>
             <!--end blockquote-->
           </div>
@@ -78,11 +78,11 @@
         <div class="col-6 col-md-4">
           <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-7" onclick="openModal('project-7')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Pembongkaran Kondensor dan Tabung Ex-Header Steam Lt.5 dan Lt.">
+              <img id="project-7" onclick="openModalImage('project-7')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Pembongkaran Kondensor dan Tabung Ex-Header Steam Lt.5 dan Lt.">
             </blockquote>
             <!--end blockquote-->
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-8" onclick="openModal('project-8')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Pembongkaran Kondensor dan Tabung Ex-Header Steam Lt.5 dan Lt.">
+              <img id="project-8" onclick="openModalImage('project-8')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Pembongkaran Kondensor dan Tabung Ex-Header Steam Lt.5 dan Lt.">
             </blockquote>
             <!--end blockquote-->
           </div>
@@ -98,11 +98,11 @@
         <div class="col-6 col-md-4">
           <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-10" onclick="openModal('project-10')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Reparasi Quench Tangki Bocor DP 3">
+              <img id="project-10" onclick="openModalImage('project-10')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Reparasi Quench Tangki Bocor DP 3">
             </blockquote>
             <!--end blockquote-->
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-11" onclick="openModal('project-11')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Reparasi Quench Tangki Bocor DP 3">
+              <img id="project-11" onclick="openModalImage('project-11')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Reparasi Quench Tangki Bocor DP 3">
             </blockquote>
             <!--end blockquote-->
           </div>
@@ -118,11 +118,11 @@
         <div class="col-6 col-md-4">
           <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-12" onclick="openModal('project-12')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Modifikasi Saluran Pipa CWS dan CWR">
+              <img id="project-12" onclick="openModalImage('project-12')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Modifikasi Saluran Pipa CWS dan CWR">
             </blockquote>
             <!--end blockquote-->
             <blockquote class="blockquote mb-0 pb-0">
-              <img id="project-13" onclick="openModal('project-13')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Modifikasi Saluran Pipa CWS dan CWR">
+              <img id="project-13" onclick="openModalImage('project-13')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100 px-1 pb-2" alt="Modifikasi Saluran Pipa CWS dan CWR">
             </blockquote>
             <!--end blockquote-->
           </div>
@@ -141,12 +141,7 @@
     <!--end container-->
   </section>
   <!--END OUR TEAM ****************************************************************************************-->
-  <!-- The Modal -->
-  <div id="myModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-  </div>
+
 </main>
 <!--end #content-->
 
@@ -156,28 +151,3 @@
 @include('landing-page.layout.footer')
 <!--end #footer-->
 @endsection
-
-<script>
-  function openModal(imgId) {
-    // Get the modal
-    var modal = document.getElementById("myModal");
-
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById(imgId);
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function() {
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-  }
-</script>

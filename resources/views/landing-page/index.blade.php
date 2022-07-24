@@ -67,39 +67,39 @@
         </div>
       </div>
       <p>
-            Selain itu, pendirian CV. Sumber Waras Sukses
-            dimaksudkan untuk membuka
-            lapangan kerja yang seluas-luasnya terutama
-            untuk pekerja-pekerja muda di daerah tempat
-            tinggal kami. Sehingga dapat
-            lebih memaksimalkan kemampuan SDM para
-            engineer-nya dalam melakukan pekerjaan secara
-            profesional dalam bidang-bidang di atas.
-          </p>
-          <p>
-            Dengan didukung tenaga kerja yang
-            profesional dan terlatih dalam bidang
-            konstruksi, mekanikal, piping, insulation pipa,
-            sipil dan maintenance service kami selalu
-            mengedepankan kualitas, kecepatan serta
-            harga yang terbaik untuk membuat seluruh
-            mitra dan klien kami merasa puas. Komitmen
-            kami untuk menyelesaikan setiap karya
-            kontruksi yang telah dipercayakan tidak terlepas
-            dari peran setiap personil kami dalam
-            melakukan perencanaan, pelaksanaan dan
-            pengendalian proyek dengan berbagai
-            manajemen dan metode kontruksi yang efektif,
-            efisien dan selalu memperhatikan
-            K3 (Keselamatan Kesehatan Kerja) karena
-            sebagai wujud dari rangkaian proses
-            pembelajaran dan pengalaman perusahaan
-            melalui manajemen teknologi dan metode
-            kontruksi yang efektif dan efisien kami siap
-            memberikan pelayanan jasa kontruksi terbaik
-            dalam menciptakan karya kontruksi yang lebih
-            nyata.
-          </p>
+        Selain itu, pendirian CV. Sumber Waras Sukses
+        dimaksudkan untuk membuka
+        lapangan kerja yang seluas-luasnya terutama
+        untuk pekerja-pekerja muda di daerah tempat
+        tinggal kami. Sehingga dapat
+        lebih memaksimalkan kemampuan SDM para
+        engineer-nya dalam melakukan pekerjaan secara
+        profesional dalam bidang-bidang di atas.
+      </p>
+      <p>
+        Dengan didukung tenaga kerja yang
+        profesional dan terlatih dalam bidang
+        konstruksi, mekanikal, piping, insulation pipa,
+        sipil dan maintenance service kami selalu
+        mengedepankan kualitas, kecepatan serta
+        harga yang terbaik untuk membuat seluruh
+        mitra dan klien kami merasa puas. Komitmen
+        kami untuk menyelesaikan setiap karya
+        kontruksi yang telah dipercayakan tidak terlepas
+        dari peran setiap personil kami dalam
+        melakukan perencanaan, pelaksanaan dan
+        pengendalian proyek dengan berbagai
+        manajemen dan metode kontruksi yang efektif,
+        efisien dan selalu memperhatikan
+        K3 (Keselamatan Kesehatan Kerja) karena
+        sebagai wujud dari rangkaian proses
+        pembelajaran dan pengalaman perusahaan
+        melalui manajemen teknologi dan metode
+        kontruksi yang efektif dan efisien kami siap
+        memberikan pelayanan jasa kontruksi terbaik
+        dalam menciptakan karya kontruksi yang lebih
+        nyata.
+      </p>
     </div>
   </section>
   <section id="scope-of-works" class="ts-block text-center pt-4">
@@ -217,8 +217,8 @@
       </div>
       <div class="row mb-4">
         <div class="col-md-4 col-xl-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-          <div class="px-0 mb-4">
-            <img src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100" alt="">
+          <div class="px-0 mb-4 project-image">
+            <img id="project-1" onclick="openModalImage('project-1')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100" alt="Pengecatan Sandblast">
           </div>
         </div>
         <div class="col-md-8 col-xl-8 mb-4" data-animate="ts-fadeInUp">
@@ -244,8 +244,8 @@
             23 Sept 2021
           </div>
           <div class="col-md-6 col-xl-6 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-            <div class="px-0">
-              <img src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100" alt="">
+            <div class="px-0 project-image">
+              <img id="project-2" onclick="openModalImage('project-2')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100" alt="Pembangunan Gedung TPS B3">
             </div>
           </div>
         </div>
@@ -262,8 +262,8 @@
             21 Sept 2021
           </div>
           <div class="col-md-6 col-xl-6 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-            <div class="px-0">
-              <img src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100" alt="">
+            <div class="px-0 project-image">
+              <img id="project-3" onclick="openModalImage('project-3')" src="{{ asset('assets/img/project-300x300.png') }}" class="mw-100" alt="Insulation Pipa">
             </div>
           </div>
         </div>
