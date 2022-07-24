@@ -5,7 +5,7 @@
 <!--*********************************************************************************************************-->
 <!--************ CONTENT ************************************************************************************-->
 <!--*********************************************************************************************************-->
-<main id="ts-content" style="padding-top: 5rem;">
+<main id="ts-content" style="padding-top: 3rem;">
   <!--ADVANCED FEATURES ***********************************************************************************-->
   <section id="advanced-features" class="ts-block">
     <div class="container">
@@ -31,7 +31,7 @@
         <!--end col-xl-5-->
         <div class="col-sm-4 col-md-4 col-xl-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
           <div class="mb-4">
-            <img src="{{ asset('assets/img/800x1200.png') }}" class="mw-100" alt="">
+            <img src="{{ asset('assets/img/certificate-800x1250.png') }}" class="mw-100" alt="">
           </div>
         </div>
         <!--end col-xl-7-->
@@ -40,7 +40,7 @@
       <div class="col-sm-12 col-md-12 col-xl-10 ml-auto mr-auto d-flex flex-column flex-sm-row mb-4">
         <div class="col-sm-4 col-md-4 col-xl-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
           <div class="mb-4">
-            <img src="{{ asset('assets/img/800x1200.png') }}" class="mw-100" alt="">
+            <img src="{{ asset('assets/img/certificate-800x1250.png') }}" class="mw-100" alt="">
           </div>
         </div>
         <!--end col-xl-7-->

@@ -5,7 +5,7 @@
 <!--*********************************************************************************************************-->
 <!--************ CONTENT ************************************************************************************-->
 <!--*********************************************************************************************************-->
-<main id="ts-content" style="padding-top: 8rem;">
+<main id="ts-content" style="padding-top: 7rem;">
   <!--WHAT YOU'LL GET *************************************************************************************-->
   <section id="what-youll-get" class="ts-block text-center pt-4">
     <div class="container">
@@ -18,14 +18,16 @@
         dengan tujuan untuk meningkatkan kepuasan pelanggan secara nyata dengan menghasilkan kontruksi
         berkualitas dan tepat waktu yang didukung dengan tenaga SDM yang profesional.
       </p>
+      <figure data-animate="ts-fadeInUp">
+        <figure class="icon mb-5 p-2">
+          <img src="{{ asset('assets/img/vison-misson-1100x350.png') }}" class="w-100" alt="">
+          <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
+        </figure>
+      </figure>
       <!--end ts-title-->
       <div class="row">
         <div class="col-sm-6 col-md-6 col-xl-6">
           <figure data-animate="ts-fadeInUp">
-            <figure class="icon mb-5 p-2">
-              <img src="{{ asset('assets/img/icon-50x80.png') }}" alt="">
-              <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
-            </figure>
             <h4>Vision</h4>
             <p>
               CV. Sumber Waras Sukses akan menjadi salah satu
@@ -41,10 +43,6 @@
         <!--end col-xl-4-->
         <div class="col-sm-6 col-md-6 col-xl-6">
           <figure data-animate="ts-fadeInUp" data-delay="0.1s">
-            <figure class="icon mb-5 p-2">
-              <img src="{{ asset('assets/img/icon-50x80.png') }}" alt="">
-              <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
-            </figure>
             <h4>Mision</h4>
             <p>
               Meningkatkan daya saing perusahaan di industri jasa

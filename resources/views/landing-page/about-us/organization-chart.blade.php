@@ -4,7 +4,7 @@
 <!--*********************************************************************************************************-->
 <!--************ CONTENT ************************************************************************************-->
 <!--*********************************************************************************************************-->
-<main id="ts-content" style="padding-top: 8rem;">
+<main id="ts-content" style="padding-top: 6rem;">
   <section id="organize" class="ts-block pt-5">
     <div class="container">
       <div class="ts-title text-center">
@@ -43,7 +43,7 @@
         </div> -->
         <div class="col-md-12 my-5 d-flex justify-content-center align-items-center">
           <div class="image position-relative">
-            <img src="{{ asset('assets/img/800x1200.png') }}" class="mw-100" alt="" data-animate="ts-zoomInShort" data-delay=".1s">
+            <img src="{{ asset('assets/img/organozation-chart-1140x1800.png') }}" class="mw-100" alt="" data-animate="ts-zoomInShort" data-delay=".1s">
           </div>
         </div>
         <!-- <div class="col-md-4">

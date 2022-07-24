@@ -5,7 +5,7 @@
 <!--*********************************************************************************************************-->
 <!--************ CONTENT ************************************************************************************-->
 <!--*********************************************************************************************************-->
-<main id="ts-content" style="padding-top: 5rem;">
+<main id="ts-content" style="padding-top: 4rem;">
   <!--ADVANCED FEATURES ***********************************************************************************-->
   <section id="advanced-features" class="ts-block">
     <div class="container">
@@ -52,7 +52,8 @@
         <!--end col-xl-5-->
         <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
           <div class="px-3 mb-4">
-            <img src="{{ asset('assets/img/image-630x350.png') }}" class="mw-100" alt="">
+            <img src="{{ asset('assets/img/company-overview-650x650.png') }}" class="mw-100" alt="">
+            <!-- <img src="https://placehold.jp/48/3d4070/ffffff/650x650.png?text=650%20x%20650%0ACompany%20Overview&css=%7B%22border-radius%22%3A%2215px%22%2C%22background%22%3A%22%20-webkit-linear-gradient(40deg%2C%20rgba(252%2C%20231%2C%2039%2C%201)%200%25%2C%20rgba(228%2C%20110%2C%2076%2C%201)%2050%25%2C%20rgba(252%2C%20231%2C%2039%2C%201)%20100%25)%22%7D" class="mw-100" alt=""> -->
           </div>
         </div>
         <!--end col-xl-7-->
