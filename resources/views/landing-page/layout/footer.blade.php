@@ -8,7 +8,7 @@
           <h3>Contact Us</h3>
           <address>
             <figure>
-              Jl. Sumber Waras I No.11 RT.05 RW 08
+              Jl. Sumber Waras I 11 RT.05 RW.08
               <br>
               Kelurahan Kalirejo, Kecamatan Lawang
               <br>
@@ -17,7 +17,7 @@
             <br>
             <figure>
               <div class="font-weight-bold">Email:</div>
-              <a href="#">sumberwaras011@gmail.com</a>
+              <div>sumberwaras011@gmail.com</div>
             </figure>
             <figure>
               <div class="font-weight-bold">Phone:</div>
