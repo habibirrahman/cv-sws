@@ -275,8 +275,11 @@
       </div>
     </div>
   </section>
-  <section id="our-clients" class="ts-block pb-5" data-bg-color="#f6f6f6" data-mask-top-nw-color="#fff">
+  <section id="our-clients" class="ts-block text-center pb-5" data-bg-color="#f6f6f6" data-mask-top-nw-color="#fff">
     <div class="container">
+      <div class="ts-title mb-2">
+        <h2>Our Clients</h2>
+      </div>
       <div class="d-flex flex-wrap justify-content-between align-items-center text-center ts-partners">
         <a href="#">
           <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
