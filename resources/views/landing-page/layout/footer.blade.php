@@ -17,7 +17,7 @@
             <br>
             <figure>
               <div class="font-weight-bold">Email:</div>
-              <div>sumberwaras011@gmail.com</div>
+              sumberwaras011@gmail.com
             </figure>
             <figure>
               <div class="font-weight-bold">Phone:</div>
