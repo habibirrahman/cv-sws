@@ -282,40 +282,40 @@
       </div>
       <div class="d-flex flex-warp justify-content-between align-items-center ts-partners invisible-scrollbar">
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
         <a href="#" class="col-6 col-md-2">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="" style="width: 10rem">
         </a>
       </div>
 
