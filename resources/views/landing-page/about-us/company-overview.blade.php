@@ -53,7 +53,7 @@
         <div class="col-md-12 col-xl-12 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
           <div class="px-0 mb-4">
             <!-- <img src="{{ asset('assets/img/company-overview-650x650.png') }}" class="mw-100" alt=""> -->
-            <img src="{{ asset('assets/img/vison-misson-1100x350.png') }}" class="w-100" alt="">
+            <img src="{{ asset('assets/img/company-overview-1100x350.png') }}" class="w-100" alt="">
           </div>
         </div>
         <!--end col-xl-7-->

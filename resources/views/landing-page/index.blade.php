@@ -62,7 +62,7 @@
         </div>
         <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
           <div class="px-3 mb-4">
-            <img src="{{ asset('assets/img/company-overview-650x650.png') }}" class="mw-100" alt="">
+            <img src="{{ asset('assets/img/profile-650x650.png') }}" class="mw-100" alt="">
           </div>
         </div>
       </div>
