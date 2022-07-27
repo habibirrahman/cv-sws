@@ -19,7 +19,7 @@
 </header>
 
 <main id="ts-content">
-  <section id="profile" class="ts-block">
+  <section id="profile" class="ts-block" data-mask-bottom-wn-color="#f6f6f6">
     <div class="container">
       <div class="row">
         <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp">
@@ -66,7 +66,7 @@
           </div>
         </div>
       </div>
-      <p>
+      <!-- <p>
         Selain itu, pendirian CV. Sumber Waras Sukses
         dimaksudkan untuk membuka
         lapangan kerja yang seluas-luasnya terutama
@@ -99,10 +99,10 @@
         memberikan pelayanan jasa kontruksi terbaik
         dalam menciptakan karya kontruksi yang lebih
         nyata.
-      </p>
+      </p> -->
     </div>
   </section>
-  <section id="scope-of-works" class="ts-block text-center pt-4">
+  <section id="scope-of-works" class="ts-block text-center" data-bg-color="#f6f6f6" data-mask-bottom-wn-color="#fff">
     <div class="container">
       <div class="ts-title">
         <h2>Scope of Work</h2>
@@ -159,7 +159,7 @@
       </div>
     </div>
   </section>
-  <section id="company-capability" class="ts-block text-center py-4">
+  <section id="company-capability" class="ts-block text-center" data-mask-bottom-wn-color="#f6f6f6">
     <div class="container">
       <div class="ts-title">
         <h2>Company Capability</h2>
@@ -210,7 +210,7 @@
       </div>
     </div>
   </section>
-  <section id="project-review" class="ts-block">
+  <section id="project-review" class="ts-block" data-bg-color="#f6f6f6" data-mask-bottom-wn-color="#fff">
     <div class="container">
       <div class="ts-title text-center">
         <h2>Latest Projects</h2>
@@ -275,47 +275,47 @@
       </div>
     </div>
   </section>
-  <section id="our-clients" class="ts-block text-center pb-5" data-bg-color="#f6f6f6" data-mask-top-nw-color="#fff">
+  <section id="our-clients" class="ts-block text-center pb-5" data-mask-top-nw-color="#fff">
     <div class="container">
-      <div class="ts-title mb-2">
+      <div class="ts-title mb-3">
         <h2>Our Clients</h2>
       </div>
-      <div class="d-flex flex-wrap justify-content-between align-items-center text-center ts-partners">
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+      <div class="d-flex flex-warp justify-content-between align-items-center ts-partners invisible-scrollbar">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
-        <a href="#">
-          <img src="{{ asset('assets/img/partner-150x75.png') }}" class="w-100" alt="">
+        <a href="#" class="col-6 col-md-2">
+          <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
         </a>
       </div>
 

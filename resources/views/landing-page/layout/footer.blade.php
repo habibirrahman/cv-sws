@@ -1,7 +1,7 @@
 <footer id="ts-footer">
   <!-- <div class="map ts-height__600px" id="map" data-mask-top-nw-color="#fff" data-mask-bottom-wn-color="#1f1f1f"></div> -->
   <!--end map-->
-  <section id="contact" class="ts-block ts-background-is-dark ts-separate-bg-element" data-bg-image="{{ asset('assets/img/bg-1920x1400.jpg') }}" data-bg-image-opacity=".1" data-bg-color="#1f1f1f" data-mask-bottom-wn-color="#000">
+  <section id="contact" class="ts-block ts-background-is-dark ts-separate-bg-element" data-bg-image="{{ asset('assets/img/bg-1920x1400.jpg') }}" data-bg-image-opacity=".1" data-bg-color="#1f1f1f" data-mask-bottom-wn-color="#891231">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
@@ -68,7 +68,7 @@
     <!--end container-->
   </section>
 
-  <div class="text-center text-white pb-5" data-bg-color="#000">
+  <div class="text-center text-white pb-5" data-bg-color="#891231">
     @php ($year = date('Y'))
     <small>© {{ $year }} CV. Sumber Waras Sukses</small>
   </div>

@@ -1,5 +1,5 @@
   <!--NAVIGATION ******************************************************************************************-->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element" data-bg-color="#1d1d1d" data-pages="{{ $data['menu'] }}">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element" data-bg-color="#891231" data-pages="{{ $data['menu'] }}">
     <div class="container">
       <a class="navbar-brand" href="{{ route('landing-page.index') }}">
         <img src="{{ asset('assets/img/logo-1x1.png') }}" alt="logo-sws" width="50">

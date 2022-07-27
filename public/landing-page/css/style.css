@@ -1616,6 +1616,10 @@ body.has-loading-screen.loading-done:after {
     padding: .625rem .75rem;
 }
 
+.ts-partners a img{
+    width: 10rem;
+}
+
 /*-------------------------------------------
   -- Plugins
 -------------------------------------------*/
