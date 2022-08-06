@@ -1,6 +1,6 @@
   <!--NAVIGATION ******************************************************************************************-->
-  <!-- // linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 50%, rgba(252, 231, 39, 1) 100%)" -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element" data-bg-color="linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 50%, rgba(252, 231, 39, 1) 100%)" data-pages="{{ $data['menu'] }}">
+  <!-- // linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 30%, rgba(228, 110, 76, 1) 70%, rgba(252, 231, 39, 1) 100%) -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element" data-bg-color="linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 30%, rgba(228, 110, 76, 1) 70%, rgba(252, 231, 39, 1) 100%)" data-pages="{{ $data['menu'] }}">
     <div class="container">
       <a class="navbar-brand" href="{{ route('landing-page.index') }}">
         <img src="{{ asset('logo.png') }}" alt="logo-sws" width="50">

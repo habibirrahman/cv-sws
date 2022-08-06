@@ -450,7 +450,7 @@
         <div class="col-sm-4 col-lg-4">
           <div class="card text-center ts-price-box" data-animate="ts-fadeInUp">
             <div class="card-header p-0">
-              <h5 class="mb-0 py-3" style="background: linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 50%, rgba(252, 231, 39, 1) 100%)">Basic</h5>
+              <h5 class="mb-0 py-3" style="background: linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 30%, rgba(228, 110, 76, 1) 70%, rgba(252, 231, 39, 1) 100%)">Basic</h5>
               <div class="ts-title py-5 mb-0">
                 <h3 class="mb-0 font-weight-normal">Free</h3>
                 <small class="ts-opacity__50">forever</small>
@@ -480,7 +480,7 @@
           <div class="card text-center ts-price-box ts-price-box__promoted" data-animate="ts-fadeInUp" data-delay="0.1s">
 
             <div class="card-header p-0">
-              <h5 class="mb-0 py-3" style="background: linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 50%, rgba(252, 231, 39, 1) 100%)">Premium</h5>
+              <h5 class="mb-0 py-3" style="background: linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 30%, rgba(228, 110, 76, 1) 70%, rgba(252, 231, 39, 1) 100%)">Premium</h5>
               <div class="ts-title py-5 mb-0">
                 <h3 class="mb-0 font-weight-normal">
                   <sup>$</sup>9,99
@@ -511,7 +511,7 @@
         <div class="col-sm-4 col-lg-4">
           <div class="card text-center ts-price-box" data-animate="ts-fadeInUp" data-delay="0.2s">
             <div class="card-header p-0">
-              <h5 class="mb-0 py-3" style="background: linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 50%, rgba(252, 231, 39, 1) 100%)">Premium</h5>
+              <h5 class="mb-0 py-3" style="background: linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 30%, rgba(228, 110, 76, 1) 70%, rgba(252, 231, 39, 1) 100%)">Premium</h5>
               <div class="ts-title py-5 mb-0">
                 <h3 class="mb-0 font-weight-normal">
                   <sup>$</sup>19,99
@@ -609,7 +609,7 @@
 
   </section>
 
-  <section id="subscribe" class="ts-block ts-separate-bg-element text-white" data-bg-image="{{ asset('assets/img/bg-1920x700.jpg') }}" data-bg-image-opacity=".1" style="background: linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 50%, rgba(252, 231, 39, 1) 100%)" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-mask-top-nw-color="#fff" data-mask-bottom-wn-color="#fff">
+  <section id="subscribe" class="ts-block ts-separate-bg-element text-white" data-bg-image="{{ asset('assets/img/bg-1920x700.jpg') }}" data-bg-image-opacity=".1" style="background: linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 30%, rgba(228, 110, 76, 1) 70%, rgba(252, 231, 39, 1) 100%)" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-mask-top-nw-color="#fff" data-mask-bottom-wn-color="#fff">
     <div class="container">
       <h3>Subscribe For The Latest News!</h3>
       <form class="ts-form ts-form-email ts-labels-inside-input" data-php-path="assets/php/email.php">

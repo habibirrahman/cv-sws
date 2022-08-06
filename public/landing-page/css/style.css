@@ -1518,13 +1518,13 @@ ul.ts-list-divided li:last-child {
 -------------------------------------------*/
 
 body.has-loading-screen:before {
-    background-color: #000;
+    background: rgba(0, 0, 0, 0.8);
     content: "";
     height: 100%;
     right: 0;
     position: fixed;
     width: 100%;
-    top: 0;
+    bottom: 0;
     z-index: 9999;
     transition: 1.5s ease;
     opacity: 1;
@@ -1547,7 +1547,7 @@ body.has-loading-screen:after {
 }
 
 body.has-loading-screen.loading-done:before {
-    width: 0;
+    height: 0;
 }
 
 body.has-loading-screen.loading-done:after {
