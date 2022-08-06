@@ -16,7 +16,7 @@
             <!--end ts-title-->
             <div class="d-flex flex-wrap">
                 @foreach ($data['projects'] as $project)
-                <div class="col-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4">
                     <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
                         @foreach ($project->images as $image)
                         <blockquote class="blockquote image mb-0 pb-0">
