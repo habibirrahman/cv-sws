@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <link rel="shortcut icon" href="{{ asset('assets/img/logo-1x1.png') }}" />
-        <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/logo-1x1.png') }}" />
-        <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/logo-1x1.png') }}" />
+        <link rel="shortcut icon" href="{{ asset('favicon.png') }}" />
+        <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('favicon.png') }}" />
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('favicon.png') }}" />
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 

@@ -36,7 +36,7 @@ $(document).ready(function ($) {
             // Background Color
 
             if ($("[data-bg-color]")) {
-                $this.find(".ts-background").css("background-color", $this.attr("data-bg-color"));
+                $this.find(".ts-background").css("background", $this.attr("data-bg-color"));
             }
 
             // Particles
@@ -82,7 +82,7 @@ $(document).ready(function ($) {
         else {
 
             if ($this.attr("data-bg-color") !== undefined) {
-                $this.css("background-color", $this.attr("data-bg-color"));
+                $this.css("background", $this.attr("data-bg-color"));
                 if ($this.hasClass("btn")) {
                     $this.css("border-color", $this.attr("data-bg-color"));
                 }

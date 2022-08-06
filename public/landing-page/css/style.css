@@ -967,7 +967,7 @@ blockquote img:hover, .certificate-image img:hover, .project-image img:hover {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
   }
-  
+
   /* Modal Content (image) */
   .modal-content {
     margin: auto;
@@ -976,7 +976,7 @@ blockquote img:hover, .certificate-image img:hover, .project-image img:hover {
     max-width: 700px;
     border-radius: 15px;
   }
-  
+
   /* Caption of Modal Image */
   #caption {
     margin: auto;
@@ -988,25 +988,25 @@ blockquote img:hover, .certificate-image img:hover, .project-image img:hover {
     padding: 10px 0;
     height: 150px;
   }
-  
+
   /* Add Animation */
-  .modal-content, #caption {  
+  .modal-content, #caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
   }
-  
+
   @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
+    from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
   }
-  
+
   @keyframes zoom {
-    from {transform:scale(0)} 
+    from {transform:scale(0)}
     to {transform:scale(1)}
   }
-  
+
   /* The Close Button */
   .close {
     position: absolute;
@@ -1017,14 +1017,14 @@ blockquote img:hover, .certificate-image img:hover, .project-image img:hover {
     font-weight: bold;
     transition: 0.3s;
   }
-  
+
   .close:hover,
   .close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
   }
-  
+
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
     .modal-content {
@@ -1565,14 +1565,14 @@ body.has-loading-screen.loading-done:after {
 .navbar {
     font-size: .875rem;
     font-weight: 500;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
     transition: .3s ease;
 }
 
 .navbar.in {
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
 }
 
 .navbar.in .ts-background {
@@ -2533,6 +2533,13 @@ E. Template Specific Elements
 }
 .text-base {
     font-size: 16px;
+}
+.text-lg {
+    font-size: 20px;
+}
+
+.certificate-label {
+    font-weight: bold;
 }
 
 .invisible-scrollbar {

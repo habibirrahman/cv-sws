@@ -2,17 +2,18 @@
 
 namespace Database\Seeders;
 
+use App\Models\Paragraph;
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
+class TruncateParagraph extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      *
      * @return void
      */
     public function run()
     {
-        //
+        Paragraph::truncate();
     }
 }

@@ -15,6 +15,7 @@ class Certificate extends Model
         'number',
         'date',
         'city',
+        'class_of_city',
         'certificate_of_domicile',
         'published_by',
         'registration_number',
@@ -22,8 +23,29 @@ class Certificate extends Model
         'tax_letter',
         'business_license',
     ];
-    public function image()
+    public function images()
     {
         return $this->hasMany('App\Models\Image');
+    }
+    public function getDateAttribute($value)
+    {
+        $months = [
+            1 =>   'Januari',
+            'Februari',
+            'Maret',
+            'April',
+            'Mei',
+            'Juni',
+            'Juli',
+            'Agustus',
+            'September',
+            'Oktober',
+            'November',
+            'Desember'
+        ];
+        if ($value) {
+            $part = explode('-', $value);
+            return $part[2] . ' ' . $months[(int)$part[1]] . ' ' . $part[0];
+        } else return null;
     }
 }

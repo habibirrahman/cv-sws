@@ -2,18 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Project;
+use App\Models\Certificate;
 use Illuminate\Http\Request;
 
 class LandingController extends Controller
 {
     // show home page
     public function index()
-    {   
+    {
+        $projects = Project::orderByDesc('created_at')->take(3)->get();
+        // $projects = [];
         $data = [
             'menu' => 'home',
             'submenu' => '',
         ];
-        return view('landing-page.index', compact('data'));
+        return view('landing-page.index', compact('data', 'projects'));
     }
     // show about us
     public function companyOverview()
@@ -43,23 +47,23 @@ class LandingController extends Controller
     // show our projects
     public function ourProjects()
     {
+        $projects = Project::orderByDesc('date')->get();
         $data = [
             'menu' => 'our-projects',
             'submenu' => '',
+            'projects' => $projects,
         ];
         return view('landing-page.our-projects', compact('data'));
     }
     // show certifications
     public function certifications()
     {
-        $certifications = [
-            0 => [ 'id' => 1 ],
-        ];
+        $certificates = Certificate::orderBy('created_at')->get();
         $data = [
             'menu' => 'certifications',
             'submenu' => '',
         ];
-        return view('landing-page.certifications', compact('data'));
+        return view('landing-page.certifications', compact('data', 'certificates'));
     }
     // show contact us
     public function contactUs()
