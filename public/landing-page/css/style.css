@@ -1650,7 +1650,10 @@ body.has-loading-screen.loading-done:after {
 }
 
 .ts-partners a img {
-    width: 10rem;
+    border-radius: 10px;
+    height: auto;
+    max-width: 10rem;
+    max-height: 7.5rem;
 }
 
 /*-------------------------------------------
@@ -2625,23 +2628,6 @@ E. Template Specific Elements
 }
 
 .image-holder img {
-    min-width: 100%;
-    min-height: 100%;
-    border-radius: 10px;
-}
-
-.image-our-client {
-    padding: 0 !important;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-}
-
-.image-our-client img {
     min-width: 100%;
     min-height: 100%;
     border-radius: 10px;

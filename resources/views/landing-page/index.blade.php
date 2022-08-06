@@ -248,17 +248,17 @@
             <div class="ts-title mb-3">
                 <h2>Our Clients</h2>
             </div>
-            <div class="d-flex flex-warp justify-content-between align-items-center ts-partners invisible-scrollbar">
-                <a href="#" class="col-6 col-md-2 image-our-client">
+            <div class="d-flex flex-wrap justify-content-between align-items-center ts-partners">
+                <a href="#" class="col-6 col-md-2" title="PT Meiji Indonesian Pharmaceutical Industries">
                     <img src="{{ asset('assets/our-clients/PT Meiji Indonesian Pharmaceutical Industries.jpg') }}" alt="PT Meiji Indonesian Pharmaceutical Industries">
                 </a>
-                <a href="#" class="col-6 col-md-2 image-our-client">
+                <a href="#" class="col-6 col-md-2" title="PT Molindo Raya Industri">
                     <img src="{{ asset('assets/our-clients/PT Molindo Raya Industri.jpg') }}" alt="PT Molindo Raya Industri">
                 </a>
-                <a href="#" class="col-6 col-md-2 image-our-client">
+                <a href="#" class="col-6 col-md-2" title="PT Otsuka Indonesia">
                     <img src="{{ asset('assets/our-clients/PT Otsuka Indonesia.png') }}" alt="PT Otsuka Indonesia">
                 </a>
-                <a href="#" class="col-6 col-md-2 image-our-client">
+                <a href="#" class="col-6 col-md-2" title="PT Widatra Bhakti">
                     <img src="{{ asset('assets/our-clients/PT Widatra Bhakti.png') }}" alt="PT Widatra Bhakti">
                 </a>
             </div>
