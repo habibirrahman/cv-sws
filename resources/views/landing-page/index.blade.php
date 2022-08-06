@@ -180,7 +180,7 @@
                 <h2>Latest Projects</h2>
             </div>
             <div class="row mb-4">
-                <div class="col-md-4 col-xl-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
+                <div class="col-sm-6 col-md-4 text-center mb-2" data-animate="ts-fadeInUp" data-delay="0.1s">
                     <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
                         @foreach ($projects[0]->images as $image)
                         <blockquote class="blockquote image mb-0 pb-0">
@@ -189,7 +189,7 @@
                         @endforeach
                     </div>
                 </div>
-                <div class="col-md-8 col-xl-8 mb-4" data-animate="ts-fadeInUp">
+                <div class="col-sm-6 col-md-8" data-animate="ts-fadeInUp">
                     <div class="ts-title mb-0">
                         <h3 class="mb-2">{{ $projects[0]->name }}</h3>
                     </div>
@@ -198,16 +198,16 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-xl-6 d-flex flex-column-reverse flex-sm-row mb-4 px-0">
-                    <div class="col-md-6 col-xl-6" data-animate="ts-fadeInUp">
-                        <div class="ts-title mb-0 mt-4">
+                <div class="col-sm-12 col-md-6 d-flex flex-column-reverse flex-sm-row mb-4 px-0">
+                    <div class="col-sm-6" data-animate="ts-fadeInUp">
+                        <div class="ts-title mb-0">
                             <h4 class="mb-2">{{ $projects[1]->name }}</h4>
                         </div>
                         <p class="mb-1">{{ $projects[1]->description }}</p>
                         {{ $projects[1]->date }}
                     </div>
-                    <div class="col-md-6 col-xl-6 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-                        <div class="owl-carousel ts-carousel-blockquote mt-4" data-owl-dots="1" data-animate="ts-zoomInShort">
+                    <div class="col-md-6 text-center mb-2" data-animate="ts-fadeInUp" data-delay="0.1s">
+                        <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
                             @foreach ($projects[1]->images as $image)
                             <blockquote class="blockquote image-sm mb-0 pb-0">
                                 <img id="project-{{ $image->id }}" onclick="openModalImage('project-{{ $image->id }}')" src="{{ asset('assets/projects/'.$image->url) }}" alt="{{ $projects[1]->description }}">
@@ -216,16 +216,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-xl-6 d-flex flex-column-reverse flex-sm-row mb-4 px-0">
-                    <div class="col-md-6 col-xl-6" data-animate="ts-fadeInUp">
-                        <div class="ts-title mb-0 mt-4">
+                <div class="col-sm-12 col-md-6 d-flex flex-column-reverse flex-sm-row mb-4 px-0">
+                    <div class="col-md-6" data-animate="ts-fadeInUp">
+                        <div class="ts-title mb-0">
                             <h4 class="mb-2">{{ $projects[2]->name }}</h4>
                         </div>
                         <p class="mb-1">{{ $projects[2]->description }}</p>
                         {{ $projects[2]->date }}
                     </div>
-                    <div class="col-md-6 col-xl-6 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-                        <div class="owl-carousel ts-carousel-blockquote mt-4" data-owl-dots="1" data-animate="ts-zoomInShort">
+                    <div class="col-md-6 text-center mb-2" data-animate="ts-fadeInUp" data-delay="0.1s">
+                        <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
                             @foreach ($projects[2]->images as $image)
                             <blockquote class="blockquote image-sm mb-0 pb-0">
                                 <img id="project-{{ $image->id }}" onclick="openModalImage('project-{{ $image->id }}')" src="{{ asset('assets/projects/'.$image->url) }}" alt="{{ $projects[2]->description }}">
