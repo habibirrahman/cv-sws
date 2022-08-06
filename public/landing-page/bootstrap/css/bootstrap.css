@@ -475,6 +475,14 @@
     justify-content: center;
     border-radius: 10px;
   }
+  .blockquote.image-sm {
+    overflow: hidden;
+    height: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
 
   .blockquote img {
     min-width: 100%;

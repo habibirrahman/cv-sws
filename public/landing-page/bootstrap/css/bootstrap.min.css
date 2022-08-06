@@ -3970,6 +3970,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0rem 1rem;
+    /* background: linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 50%, rgba(252, 231, 39, 1) 100%) */
   }
 
   .navbar > .container,

@@ -1,7 +1,7 @@
 @extends('landing-page.layout.app')
 @section('content')
 
-<header id="ts-hero" class="ts-full-screen ts-separate-bg-element" data-mask-bottom-wn-color="#fff" data-bg-image="{{ asset('assets/img/bg-1920x1100.jpg') }}" data-bg-color="#737373" data-bg-image-opacity=".8" data-bg-parallax="scroll" data-bg-parallax-speed="3">
+<header id="ts-hero" class="ts-full-screen ts-separate-bg-element" data-mask-bottom-wn-color="#fff" data-bg-image="{{ asset('assets/img/hero.jpg') }}" data-bg-color="#737373" data-bg-image-opacity=".8" data-bg-parallax="scroll" data-bg-parallax-speed="3">
     @include('landing-page.layout.header')
     <div class="container align-self-center align-items-center">
         <div class="row">
@@ -21,11 +21,11 @@
 <main id="ts-content">
     <section id="profile" class="ts-block" data-mask-bottom-wn-color="#f6f6f6">
         <div class="container">
+            <div class="ts-title">
+                <h2>Profile</h2>
+            </div>
             <div class="row">
                 <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp">
-                    <div class="ts-title">
-                        <h2>Profile</h2>
-                    </div>
                     <p>
                         Berawal dari aktifitas dan kegiatan sebagai
                         tenaga freelance dalam bidang konstruksi,
@@ -45,61 +45,24 @@
                         konstruksi baja, konstruksi sipil,
                         insulation pipa, fabrikasi manufaktur, erection
                         struktur, dan pekerjaan sejenis lainnya.
-                        Pemilihan nama CV. Sumber Waras Sukses
-                        sendiri berasal dari daerah tempat
-                        tinggal kami yaitu Sumber Waras, sedangkan
-                        Sukses, itulah tujuan yang ingin dicapai dari
-                        pendirian perusahaan ini, yaitu menjadi
-                        perusahaan yang didukung oleh tenaga-tenaga
-                        profesional yang melakukan pekerjaannya
-                        secara profesional.
                     </p>
-                    <!-- <ul class="ts-list-colored-bullets">
-            <li>Sed a venenatis mi, vel tempus neque. </li>
-            <li>Diam in hendrerit facilisis, enim diam cursus augue.</li>
-            <li>Nullam tellus turpis, molestie ac urna</li>
-          </ul> -->
                 </div>
                 <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-                    <div class="px-3 mb-4">
-                        <img src="{{ asset('assets/img/profile-650x650.png') }}" class="mw-100" alt="">
+                    <div class="pb-4 image-holder">
+                        <img src="{{ asset('assets/img/profile.jpg') }}" class="mw-100" alt="">
                     </div>
                 </div>
             </div>
-            <!-- <p>
-        Selain itu, pendirian CV. Sumber Waras Sukses
-        dimaksudkan untuk membuka
-        lapangan kerja yang seluas-luasnya terutama
-        untuk pekerja-pekerja muda di daerah tempat
-        tinggal kami. Sehingga dapat
-        lebih memaksimalkan kemampuan SDM para
-        engineer-nya dalam melakukan pekerjaan secara
-        profesional dalam bidang-bidang di atas.
-      </p>
-      <p>
-        Dengan didukung tenaga kerja yang
-        profesional dan terlatih dalam bidang
-        konstruksi, mekanikal, piping, insulation pipa,
-        sipil dan maintenance service kami selalu
-        mengedepankan kualitas, kecepatan serta
-        harga yang terbaik untuk membuat seluruh
-        mitra dan klien kami merasa puas. Komitmen
-        kami untuk menyelesaikan setiap karya
-        kontruksi yang telah dipercayakan tidak terlepas
-        dari peran setiap personil kami dalam
-        melakukan perencanaan, pelaksanaan dan
-        pengendalian proyek dengan berbagai
-        manajemen dan metode kontruksi yang efektif,
-        efisien dan selalu memperhatikan
-        K3 (Keselamatan Kesehatan Kerja) karena
-        sebagai wujud dari rangkaian proses
-        pembelajaran dan pengalaman perusahaan
-        melalui manajemen teknologi dan metode
-        kontruksi yang efektif dan efisien kami siap
-        memberikan pelayanan jasa kontruksi terbaik
-        dalam menciptakan karya kontruksi yang lebih
-        nyata.
-      </p> -->
+            <p>
+                Pemilihan nama CV. Sumber Waras Sukses
+                sendiri berasal dari daerah tempat
+                tinggal kami yaitu Sumber Waras, sedangkan
+                Sukses, itulah tujuan yang ingin dicapai dari
+                pendirian perusahaan ini, yaitu menjadi
+                perusahaan yang didukung oleh tenaga-tenaga
+                profesional yang melakukan pekerjaannya
+                secara profesional.
+            </p>
         </div>
     </section>
     <section id="scope-of-works" class="ts-block text-center" data-bg-color="#f6f6f6" data-mask-bottom-wn-color="#fff">
@@ -110,8 +73,8 @@
             <div class="row">
                 <div class="col-sm-6 col-md-4 col-xl-4">
                     <figure data-animate="ts-fadeInUp">
-                        <figure class="icon mb-5 p-2">
-                            <img src="{{ asset('assets/img/scope-of-work-300x150.png') }}" class="w-100" alt="">
+                        <figure class="icon mb-5 blockquote image">
+                            <img src="{{ asset('assets/img/scope-of-work-1.jpg') }}" class="w-100" alt="">
                             <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
                         </figure>
                         <h4>General Contractor</h4>
@@ -126,8 +89,8 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-4">
                     <figure data-animate="ts-fadeInUp" data-delay="0.1s">
-                        <figure class="icon mb-5 p-2">
-                            <img src="{{ asset('assets/img/scope-of-work-300x150.png') }}" class="w-100" alt="">
+                        <figure class="icon mb-5 blockquote image">
+                            <img src="{{ asset('assets/img/scope-of-work-2.jpg') }}" class="w-100" alt="">
                             <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
                         </figure>
                         <h4>Steel Structure Design & Build</h4>
@@ -142,8 +105,8 @@
                 </div>
                 <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
                     <figure data-animate="ts-fadeInUp" data-delay="0.2s">
-                        <figure class="icon mb-5 p-2">
-                            <img src="{{ asset('assets/img/scope-of-work-300x150.png') }}" class="w-100" alt="">
+                        <figure class="icon mb-5 blockquote image">
+                            <img src="{{ asset('assets/img/scope-of-work-3.jpg') }}" class="w-100" alt="">
                             <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
                         </figure>
                         <h4>Maintenance Service</h4>
@@ -286,41 +249,17 @@
                 <h2>Our Clients</h2>
             </div>
             <div class="d-flex flex-warp justify-content-between align-items-center ts-partners invisible-scrollbar">
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+                <a href="#" class="col-6 col-md-2 image-our-client">
+                    <img src="{{ asset('assets/our-clients/PT Meiji Indonesian Pharmaceutical Industries.jpg') }}" alt="PT Meiji Indonesian Pharmaceutical Industries">
                 </a>
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+                <a href="#" class="col-6 col-md-2 image-our-client">
+                    <img src="{{ asset('assets/our-clients/PT Molindo Raya Industri.jpg') }}" alt="PT Molindo Raya Industri">
                 </a>
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+                <a href="#" class="col-6 col-md-2 image-our-client">
+                    <img src="{{ asset('assets/our-clients/PT Otsuka Indonesia.png') }}" alt="PT Otsuka Indonesia">
                 </a>
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
-                </a>
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
-                </a>
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
-                </a>
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
-                </a>
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
-                </a>
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
-                </a>
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
-                </a>
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
-                </a>
-                <a href="#" class="col-6 col-md-2">
-                    <img src="{{ asset('assets/img/partner-150x75.png') }}" alt="">
+                <a href="#" class="col-6 col-md-2 image-our-client">
+                    <img src="{{ asset('assets/our-clients/PT Widatra Bhakti.png') }}" alt="PT Widatra Bhakti">
                 </a>
             </div>
 

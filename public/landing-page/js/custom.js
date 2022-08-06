@@ -66,6 +66,7 @@ $(document).ready(function ($) {
                 $this.find(".ts-background-image").css("background-size", $this.attr("data-bg-size"));
                 $this.find(".ts-background-image").css("background-position", $this.attr("data-bg-position"));
                 $this.find(".ts-background-image").css("opacity", $this.attr("data-bg-image-opacity"));
+                $this.find(".ts-background-image").css("box-shadow", "inset 0 0 0 2000px rgba(0, 0, 0, 0.7)");
 
                 $this.find(".ts-background-image").css("background-size", $this.attr("data-bg-size"));
                 $this.find(".ts-background-image").css("background-repeat", $this.attr("data-bg-repeat"));
