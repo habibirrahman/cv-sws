@@ -26,8 +26,6 @@
   <div class="ts-page-wrapper" id="page-top">
     @yield('content')
   </div>
-  <!--end page-->
-
   <!-- The Modal -->
   <div id="myModal" class="modal">
     <span class="close">&times;</span>
@@ -76,7 +74,6 @@
   <script src="{{ asset('landing-page/js/custom.js') }}"></script>
 
   <!--Google map-->
-
   <script>
     var latitude = 34.038405;
     var longitude = -117.946944;

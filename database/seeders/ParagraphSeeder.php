@@ -73,6 +73,8 @@ class ParagraphSeeder extends Seeder
             ['organization-chart-text-2', ''],
             ['organization-chart-text-3', ''],
             ['organization-chart-text-4', ''],
+            ['our-projects-title', 'Our Projects'],
+            ['certifications-title', 'Certifications'],
         ];
         foreach ($paragraphs as $item) {
             DB::table('paragraphs')->insert([

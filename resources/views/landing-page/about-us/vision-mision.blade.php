@@ -2,77 +2,40 @@
 @section('content')
 @include('landing-page.layout.header')
 
-<!--*********************************************************************************************************-->
-<!--************ CONTENT ************************************************************************************-->
-<!--*********************************************************************************************************-->
 <main id="ts-content" style="padding-top: 7rem;">
-  <!--WHAT YOU'LL GET *************************************************************************************-->
-  <section id="what-youll-get" class="ts-block text-center pt-4">
-    <div class="container">
-      <div class="ts-title">
-        <h2>Vision and Mission</h2>
-      </div>
-      <p>
-        Pada saat ini CV. Sumber Waras Sukses berkomitmen menawarkan dan memberikan solusi terbaik
-        dalam melaksanakan pekerjaan sesuai kontrak yang disepakati. Komitmen perusahaan tersebut dibangun
-        dengan tujuan untuk meningkatkan kepuasan pelanggan secara nyata dengan menghasilkan kontruksi
-        berkualitas dan tepat waktu yang didukung dengan tenaga SDM yang profesional.
-      </p>
-      <figure data-animate="ts-fadeInUp">
-        <figure class="icon mb-5 p-2">
-          <img src="{{ asset('assets/img/vison-misson-1100x350.png') }}" class="w-100" alt="">
-          <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
-        </figure>
-      </figure>
-      <!--end ts-title-->
-      <div class="row">
-        <div class="col-sm-6 col-md-6 col-xl-6">
-          <figure data-animate="ts-fadeInUp">
-            <h4>Vision</h4>
-            <p>
-              CV. Sumber Waras Sukses akan menjadi salah satu
-              perusahaan kontruksi terbaik di Indonesia dengan
-              penekanan laju pertumbuhan yang berkelanjutan dan
-              pembangunan kompetensi melalui pengembangan
-              sumber daya manusia, manajemen teknologi dan tata
-              kelola perusahaan yang baik agar dapat berkontribusi
-              dalam rangka pembangunan kemajuan Indonesia.
-            </p>
-          </figure>
+    <section id="what-youll-get" class="ts-block text-center pt-4">
+        <div class="container">
+            <div class="ts-title">
+                <h2>{{ $paragraphs->visionMision->title }}</h2>
+            </div>
+            <p>{{ $paragraphs->visionMision->text }}</p>
+            <figure data-animate="ts-fadeInUp">
+                <figure class="icon mb-5 p-2">
+                    <img src="{{ asset('assets/img/'.$paragraphs->visionMision->image->url ) }}" class="w-100" alt="{{ $paragraphs->visionMision->image->identifier }}">
+                    <!-- <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image="{{ asset('assets/img/'.$paragraphs->visionMision->image->url ) }}"></div> -->
+                </figure>
+            </figure>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-xl-6">
+                    <figure data-animate="ts-fadeInUp">
+                        <h4>{{ $paragraphs->visionMision->subtitle1 }}</h4>
+                        <p>{{ $paragraphs->visionMision->text1 }}</p>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-6">
+                    <figure data-animate="ts-fadeInUp" data-delay="0.1s">
+                        <h4>{{ $paragraphs->visionMision->subtitle2 }}</h4>
+                        <p>{{ $paragraphs->visionMision->text2 }}</p>
+                    </figure>
+                </div>
+            </div>
+            <div class="form-group clearfix">
+                <a role="button" class="btn btn-primary float-left mb-4" id="to-company-overview" href="{{ route('landing-page.company-overview') }}">{{ "< Company Overview" }}</a>
+                <a role="button" class="btn btn-primary float-right mb-4" id="to-organization-chart" href="{{ route('landing-page.organization-chart') }}">{{ "Organization Chart >" }}</a>
+            </div>
         </div>
-        <!--end col-xl-4-->
-        <div class="col-sm-6 col-md-6 col-xl-6">
-          <figure data-animate="ts-fadeInUp" data-delay="0.1s">
-            <h4>Mision</h4>
-            <p>
-              Meningkatkan daya saing perusahaan di industri jasa
-              kontruksi dengan mengembangkan pelayanan dan
-              teknologi terbaik kepada konsumen dalam memenuhi
-              harapan pemangku kepentingan. Meningkatkan
-              pelatihan SDM untuk menghasilkan tenaga kerja yang
-              berkualitas dan menciptakan lingkungan kerja yang
-              kondusif, serta menyediakan lapangan kerja yang luas.
-            </p>
-          </figure>
-        </div>
-        <!--end col-xl-4-->
-      </div>
-      <!--end row-->
-      <div class="form-group clearfix">
-        <a role="button" class="btn btn-primary float-left mb-4" id="to-company-overview" href="{{ route('landing-page.company-overview') }}">{{ "< Company Overview" }}</a>
-        <a role="button" class="btn btn-primary float-right mb-4" id="to-organization-chart" href="{{ route('landing-page.organization-chart') }}">{{ "Organization Chart >" }}</a>
-      </div>
-    </div>
-    <!--end container-->
-  </section>
-  <!--END HOW IT WORKS ************************************************************************************-->
-
+    </section>
 </main>
-<!--end #content-->
 
-<!--*********************************************************************************************************-->
-<!--************ FOOTER *************************************************************************************-->
-<!--*********************************************************************************************************-->
 @include('landing-page.layout.footer')
-<!--end #footer-->
 @endsection

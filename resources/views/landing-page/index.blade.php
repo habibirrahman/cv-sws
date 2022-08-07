@@ -22,101 +22,54 @@
     <section id="profile" class="ts-block" data-mask-bottom-wn-color="#f6f6f6">
         <div class="container">
             <div class="ts-title">
-                <h2>Profile</h2>
+                <h2>{{ $paragraphs->profile->title }}</h2>
             </div>
             <div class="row">
                 <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp">
-                    <p>
-                        Berawal dari aktifitas dan kegiatan sebagai
-                        tenaga freelance dalam bidang konstruksi,
-                        mekanikal, piping, insulation pipa, sipil, dan
-                        maintenance service di beberapa perusahaan
-                        area Jawa Timur, maka berkumpullah kami para
-                        engineer muda ini untuk memulai pengabdian
-                        dan karir profesional kami sebuah melalui
-                        perusahaan yang mandiri CV. Sumber Waras Sukses.
-                    </p>
-                    <p>
-                        CV. Sumber Waras Sukses didirikan di
-                        Malang pada tanggal 1 Februari 2018. Sekalipun
-                        masih relatif muda, namun para engineer kami
-                        adalah personil yang telah mempunyai
-                        pengalaman yang sangat banyak dalam bidangbidang
-                        konstruksi baja, konstruksi sipil,
-                        insulation pipa, fabrikasi manufaktur, erection
-                        struktur, dan pekerjaan sejenis lainnya.
-                    </p>
+                    <p>{{ $paragraphs->profile->text1 }}</p>
+                    <p>{{ $paragraphs->profile->text2 }}</p>
                 </div>
                 <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
                     <div class="pb-4 image-holder">
-                        <img src="{{ asset('assets/img/profile.jpg') }}" class="mw-100" alt="">
+                        <img src="{{ asset('assets/img/'.$paragraphs->profile->image->url) }}" class="mw-100" alt="{{ $paragraphs->profile->image->identifier }}">
                     </div>
                 </div>
             </div>
-            <p>
-                Pemilihan nama CV. Sumber Waras Sukses
-                sendiri berasal dari daerah tempat
-                tinggal kami yaitu Sumber Waras, sedangkan
-                Sukses, itulah tujuan yang ingin dicapai dari
-                pendirian perusahaan ini, yaitu menjadi
-                perusahaan yang didukung oleh tenaga-tenaga
-                profesional yang melakukan pekerjaannya
-                secara profesional.
-            </p>
+            <p>{{ $paragraphs->profile->text3 }}</p>
+            <p>{{ $paragraphs->profile->text4 }}</p>
         </div>
     </section>
     <section id="scope-of-works" class="ts-block text-center" data-bg-color="#f6f6f6" data-mask-bottom-wn-color="#fff">
         <div class="container">
             <div class="ts-title">
-                <h2>Scope of Work</h2>
+                <h2>{{ $paragraphs->scopeOfWork->title }}</h2>
             </div>
             <div class="row">
                 <div class="col-sm-6 col-md-4 col-xl-4">
                     <figure data-animate="ts-fadeInUp">
                         <figure class="icon mb-5 blockquote image">
-                            <img src="{{ asset('assets/img/scope-of-work-1.jpg') }}" class="w-100" alt="">
-                            <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
+                            <img src="{{ asset('assets/img/'.$paragraphs->scopeOfWork->image1->url) }}" class="w-100" alt="{{ $paragraphs->scopeOfWork->image1->identifier }}">
                         </figure>
-                        <h4>General Contractor</h4>
-                        <p>
-                            Melaksanakan pekerjaan sesuai dengan gambar perencanaan dan ketentuan mengenai
-                            risalah penjelasan pekerjaan yang telah ditetapkan oleh klien. Kami selalu konsentrasi dengan
-                            gambar pelaksanaan pekerjaan agar teknik pekerjaan terukur dengan baik sehingga lancar dalam
-                            pelaksanaan kontruksi. Kami juga membuat laporan hasil pekerjaan dengan disiplin, tepat waktu
-                            guna menjaga efisiensi agar sesuai dengan target pekerjaan.
-                        </p>
+                        <h4>{{ $paragraphs->scopeOfWork->subtitle1 }}</h4>
+                        <p>{{ $paragraphs->scopeOfWork->text1 }}</p>
                     </figure>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-4">
                     <figure data-animate="ts-fadeInUp" data-delay="0.1s">
                         <figure class="icon mb-5 blockquote image">
-                            <img src="{{ asset('assets/img/scope-of-work-2.jpg') }}" class="w-100" alt="">
-                            <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
+                            <img src="{{ asset('assets/img/'.$paragraphs->scopeOfWork->image2->url) }}" class="w-100" alt="{{ $paragraphs->scopeOfWork->image2->identifier }}">
                         </figure>
-                        <h4>Steel Structure Design & Build</h4>
-                        <p>
-                            Kami dapat membuat gambar perencanaan pekerjaan mulai dari desain dan analisa,
-                            desain kontruksi, fabrikasi maupun desain erection karena kami ahli dalam bidang konstruksi baja,
-                            konstruksi sipil, insulation pipa, fabrikasi manufaktur, erection struktur, dan pekerjaan sejenis
-                            lainnya maka dari itu klien akan merasa sangat terbantu dengan kami, karena dalam
-                            pelaksanaannya dapat terselesaikan dengan cepat, efisien dan mudah.
-                        </p>
+                        <h4>{{ $paragraphs->scopeOfWork->subtitle2 }}</h4>
+                        <p>{{ $paragraphs->scopeOfWork->text2 }}</p>
                     </figure>
                 </div>
                 <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
                     <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                         <figure class="icon mb-5 blockquote image">
-                            <img src="{{ asset('assets/img/scope-of-work-3.jpg') }}" class="w-100" alt="">
-                            <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image=""></div>
+                            <img src="{{ asset('assets/img/'.$paragraphs->scopeOfWork->image3->url) }}" class="w-100" alt="{{ $paragraphs->scopeOfWork->image3->identifier }}">
                         </figure>
-                        <h4>Maintenance Service</h4>
-                        <p>
-                            Kami juga melayani pekerjaan maintenance dan service mesin-mesin, perpipaan,
-                            peralatan, bangunan atau gedung, modifikasi dan pekerjaan sejenis lainnya yang termasuk dalam
-                            pekerjaan pemeliharaan. Kami memberikan solusi dan umapan balik yang cepat dan tepat kepada
-                            klien dalam mengatasi permasalahan yang ada dan mengutamakan profesionalisme kerja, agar
-                            semua pekerjaan dapat selesai dengan tepat waktu.
-                        </p>
+                        <h4>{{ $paragraphs->scopeOfWork->subtitle3 }}</h4>
+                        <p>{{ $paragraphs->scopeOfWork->text3 }}</p>
                     </figure>
                 </div>
             </div>
@@ -125,47 +78,27 @@
     <section id="company-capability" class="ts-block text-center" data-mask-bottom-wn-color="#f6f6f6">
         <div class="container">
             <div class="ts-title">
-                <h2>Company Capability</h2>
+                <h2>{{ $paragraphs->companyCapability->title }}</h2>
             </div>
             <div class="row">
                 <div class="col-md-8 offset-md-2">
                     <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
                         <blockquote class="blockquote">
-                            <!-- <div class="ts-circle__lg" data-bg-image="{{ asset('assets/img/circle-270x270.jpg') }}"></div> -->
-                            <p style="padding-top: 4rem; font-size: 1rem;">
-                                Kunci perusahaan dalam bekerja yaitu terletak pada karyawan,dibuktikan dengan
-                                etos kerja, profesionalisme dalam bekerja, kualifikasi teknis yang tinggi, integritas dan
-                                rasa kebersamaan yang kuat, sehingga kami mampu melaksanakan pekerjaan dengan
-                                baik.
-                            </p>
+                            <p style="padding-top: 4rem; font-size: 1rem;">{{ $paragraphs->companyCapability->text1 }}</p>
                             <footer class="blockquote-footer">
-                                <h4>TEAM KAMI ADALAH KEKUATAN KAMI</h4>
-                                <!-- <h6>CEO at MarketsGuru</h6> -->
+                                <h4>{{ $paragraphs->companyCapability->subtitle1 }}</h4>
                             </footer>
                         </blockquote>
                         <blockquote class="blockquote">
-                            <!-- <div class="ts-circle__lg" data-bg-image="{{ asset('assets/img/circle-270x270.jpg') }}"></div> -->
-                            <p style="padding-top: 4rem; font-size: 1rem;">
-                                Perusahaan kami memliki kemampuan untuk menawarkan ide kreatif dan
-                                informasi yang tepat yang bertujuan untuk memberikan solusi yang optimal terhadap
-                                kebutuhan klien.
-                            </p>
+                            <p style="padding-top: 4rem; font-size: 1rem;">{{ $paragraphs->companyCapability->text2 }}</p>
                             <footer class="blockquote-footer">
-                                <h4>SOLUSI YANG KOMPETITIF</h4>
-                                <!-- <h6>CEO at MarketsGuru</h6> -->
+                                <h4>{{ $paragraphs->companyCapability->subtitle2 }}</h4>
                             </footer>
                         </blockquote>
                         <blockquote class="blockquote">
-                            <!-- <div class="ts-circle__lg" data-bg-image="{{ asset('assets/img/circle-270x270.jpg') }}"></div> -->
-                            <p style="padding-top: 4rem; font-size: 1rem;">
-                                Perusahaan kami sangat kritis dalam mengelola proyek-proyek pekerjaan, dengan
-                                mempertahankan fleksibilitas untuk merespon pekerjaan dengan cepat ,efektif dan
-                                efisien. Kami telah berhasil melakukan pekerjaan dengan target yang tepat waktu dan
-                                sesuai budget.
-                            </p>
+                            <p style="padding-top: 4rem; font-size: 1rem;">{{ $paragraphs->companyCapability->text3 }}</p>
                             <footer class="blockquote-footer">
-                                <h4>KAPASITAS DAN FLEKSIBILITAS</h4>
-                                <!-- <h6>CEO at MarketsGuru</h6> -->
+                                <h4>{{ $paragraphs->companyCapability->subtitle3 }}</h4>
                             </footer>
                         </blockquote>
                     </div>
@@ -177,7 +110,7 @@
     <section id="project-review" class="ts-block" data-bg-color="#f6f6f6" data-mask-bottom-wn-color="#fff">
         <div class="container">
             <div class="ts-title text-center">
-                <h2>Latest Projects</h2>
+                <h2>{{ $paragraphs->latestProjectsTitle }}</h2>
             </div>
             <div class="row mb-4">
                 <div class="col-sm-6 col-md-4 text-center mb-2" data-animate="ts-fadeInUp" data-delay="0.1s">
@@ -246,7 +179,7 @@
     <section id="our-clients" class="ts-block text-center pb-5" data-mask-top-nw-color="#fff">
         <div class="container">
             <div class="ts-title mb-3">
-                <h2>Our Clients</h2>
+                <h2>{{ $paragraphs->ourClientsTitle }}</h2>
             </div>
             <div class="d-flex flex-wrap justify-content-between align-items-center ts-partners">
                 <a href="#" class="col-6 col-md-2" title="PT Meiji Indonesian Pharmaceutical Industries">
@@ -781,10 +714,5 @@
 
 </main>
 
-
-
-
-
 @include('landing-page.layout.footer')
-
 @endsection
