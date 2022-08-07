@@ -26,6 +26,25 @@
                 </div>
                 @endforeach
             </div>
+            @if ($projects->hasPages())
+            <div class="d-flex align-items-center justify-content-center">
+                @if ($projects->currentPage() != 1)
+                @if ($projects->lastPage() > 2)
+                <!-- <a class="pagination" href="{{ $projects->url('1') }}">first</a> -->
+                @endif
+                <a class="pagination" href="{{ $projects->previousPageUrl() }}">previous</a>
+                @endif
+                @for ($page = 1; $page <= $projects->lastPage(); $page++)
+                    <a class="pagination {{ $projects->currentPage() == $page ? 'actived' : ''}}" href="{{ $projects->url($page) }}">{{ $page }}</a>
+                    @endfor
+                    @if ($projects->currentPage() != $projects->lastPage())
+                    <a class="pagination" href="{{ $projects->nextPageUrl() }}">next</a>
+                    @if ($projects->lastPage() > 2)
+                    <!-- <a class="pagination" href="{{ $projects->url($projects->lastPage()) }}">last</a> -->
+                    @endif
+                    @endif
+            </div>
+            @endif
         </div>
     </section>
 </main>

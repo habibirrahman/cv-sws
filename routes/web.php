@@ -22,7 +22,6 @@ Route::get('/our-projects', [LandingController::class, 'ourProjects'])->name('la
 Route::get('/certifications', [LandingController::class, 'certifications'])->name('landing-page.certifications');
 Route::get('/contact-us', [LandingController::class, 'contactUs'])->name('landing-page.contact-us');
 
-
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

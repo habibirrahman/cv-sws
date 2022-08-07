@@ -73,7 +73,8 @@ class LandingController extends Controller
         $paragraphs = new Paragraph();
         $paragraphs->ourProjectsTitle = Paragraph::where('identifier', 'our-projects-title')->first()->text;
         $paragraphs->contactUs = $this->getContactUs();
-        $projects = Project::orderByDesc('date')->get();
+        $projects = Project::orderByDesc('date')->paginate(6);
+        $projects->withPath('/our-projects');
         return view('landing-page.our-projects', compact('data', 'paragraphs', 'projects'));
     }
     // show certifications
