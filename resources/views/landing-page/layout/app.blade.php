@@ -32,7 +32,7 @@
   <div id="myModal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="img01">
-    <div id="caption"></div>
+    <div class="mt-4" id="caption"></div>
   </div>
 
   <script>

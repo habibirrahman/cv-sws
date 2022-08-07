@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Paragraph;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
@@ -15,11 +16,12 @@ class ParagraphSeeder extends Seeder
      */
     public function run()
     {
+        Paragraph::truncate();
         $paragraphs = [
             ['profile-title', 'Profile'],
             ['profile-text-1', 'Berawal dari aktifitas dan kegiatan sebagai tenaga freelance dalam bidang konstruksi, mekanikal, piping, insulation pipa, sipil, dan maintenance service di beberapa perusahaan area Jawa Timur, maka berkumpullah kami para engineer muda ini untuk memulai pengabdian dan karir profesional kami sebuah melalui perusahaan yang mandiri CV. Sumber Waras Sukses.'],
-            ['profile-text-2', 'CV. Sumber Waras Sukses didirikan di Malang pada tanggal 1 Februari 2018. Sekalipun masih relatif muda, namun para engineer kami adalah personil yang telah mempunyai pengalaman yang sangat banyak dalam bidangbidang konstruksi baja, konstruksi sipil, insulation pipa, fabrikasi manufaktur, erection struktur, dan pekerjaan sejenis lainnya. Pemilihan nama CV. Sumber Waras Sukses sendiri berasal dari daerah tempat tinggal kami yaitu Sumber Waras, sedangkan Sukses, itulah tujuan yang ingin dicapai dari pendirian perusahaan ini, yaitu menjadi perusahaan yang didukung oleh tenaga-tenaga profesional yang melakukan pekerjaannya secara profesional.'],
-            ['profile-text-3', ''],
+            ['profile-text-2', 'CV. Sumber Waras Sukses didirikan di Malang pada tanggal 1 Februari 2018. Sekalipun masih relatif muda, namun para engineer kami adalah personil yang telah mempunyai pengalaman yang sangat banyak dalam bidangbidang konstruksi baja, konstruksi sipil, insulation pipa, fabrikasi manufaktur, erection struktur, dan pekerjaan sejenis lainnya'],
+            ['profile-text-3', 'Pemilihan nama CV. Sumber Waras Sukses sendiri berasal dari daerah tempat tinggal kami yaitu Sumber Waras, sedangkan Sukses, itulah tujuan yang ingin dicapai dari pendirian perusahaan ini, yaitu menjadi perusahaan yang didukung oleh tenaga-tenaga profesional yang melakukan pekerjaannya secara profesional.'],
             ['profile-text-4', ''],
             ['scope-of-work-title', 'Scope of Work'],
             ['scope-of-work-subtitle-1', 'General Contractor'],
@@ -53,11 +55,13 @@ class ParagraphSeeder extends Seeder
             ['phone-5', ''],
             ['company-overview-title', 'Company Overview'],
             ['company-overview-text-1', 'Berawal dari aktifitas dan kegiatan sebagai tenaga freelance dalam bidang konstruksi, mekanikal, piping, insulation pipa, sipil, dan maintenance service di beberapa perusahaan area Jawa Timur, maka berkumpullah kami para engineer muda ini untuk memulai pengabdian dan karir profesional kami sebuah melalui perusahaan yang mandiri CV. Sumber Waras Sukses.'],
-            ['company-overview-text-2', 'CV. Sumber Waras Sukses didirikan di Malang pada tanggal 1 Februari 2018. Sekalipun masih relatif muda, namun para engineer kami adalah personil yang telah mempunyai pengalaman yang sangat banyak dalam bidangbidang konstruksi baja, konstruksi sipil, insulation pipa, fabrikasi manufaktur, erection struktur, dan pekerjaan sejenis lainnya. Pemilihan nama CV. Sumber Waras Sukses sendiri berasal dari daerah tempat tinggal kami yaitu Sumber Waras, sedangkan Sukses, itulah tujuan yang ingin dicapai dari pendirian perusahaan ini, yaitu menjadi perusahaan yang didukung oleh tenaga-tenaga profesional yang melakukan pekerjaannya secara profesional.'],
-            ['company-overview-text-3', 'Selain itu, pendirian CV. Sumber Waras Sukses dimaksudkan untuk membuka lapangan kerja yang seluas-luasnya terutama untuk pekerja-pekerja muda di daerah tempat tinggal kami. Sehingga dapat lebih memaksimalkan kemampuan SDM para engineer-nya dalam melakukan pekerjaan secara profesional dalam bidang-bidang di atas.'],
-            ['company-overview-text-4', 'Dengan didukung tenaga kerja yang profesional dan terlatih dalam bidang konstruksi, mekanikal, piping, insulation pipa, sipil dan maintenance service kami selalu mengedepankan kualitas, kecepatan serta harga yang terbaik untuk membuat seluruh mitra dan klien kami merasa puas. Komitmen kami untuk menyelesaikan setiap karya kontruksi yang telah dipercayakan tidak terlepas dari peran setiap personil kami dalam melakukan perencanaan, pelaksanaan dan pengendalian proyek dengan berbagai manajemen dan metode kontruksi yang efektif, efisien dan selalu memperhatikan K3 (Keselamatan Kesehatan Kerja) karena sebagai wujud dari rangkaian proses pembelajaran dan pengalaman perusahaan melalui manajemen teknologi dan metode kontruksi yang efektif dan efisien kami siap memberikan pelayanan jasa kontruksi terbaik dalam menciptakan karya kontruksi yang lebih nyata.'],
-            ['company-overview-text-5', ''],
-            ['company-overview-text-6', ''],
+            ['company-overview-text-2', 'CV. Sumber Waras Sukses didirikan di Malang pada tanggal 1 Februari 2018. Sekalipun masih relatif muda, namun para engineer kami adalah personil yang telah mempunyai pengalaman yang sangat banyak dalam bidangbidang konstruksi baja, konstruksi sipil, insulation pipa, fabrikasi manufaktur, erection struktur, dan pekerjaan sejenis lainnya.'],
+            ['company-overview-text-3', 'Pemilihan nama CV. Sumber Waras Sukses sendiri berasal dari daerah tempat tinggal kami yaitu Sumber Waras, sedangkan Sukses, itulah tujuan yang ingin dicapai dari pendirian perusahaan ini, yaitu menjadi perusahaan yang didukung oleh tenaga-tenaga profesional yang melakukan pekerjaannya secara profesional.'],
+            ['company-overview-text-4', 'Selain itu, pendirian CV. Sumber Waras Sukses dimaksudkan untuk membuka lapangan kerja yang seluas-luasnya terutama untuk pekerja-pekerja muda di daerah tempat tinggal kami. Sehingga dapat lebih memaksimalkan kemampuan SDM para engineer-nya dalam melakukan pekerjaan secara profesional dalam bidang-bidang di atas.'],
+            ['company-overview-text-5', 'Dengan didukung tenaga kerja yang profesional dan terlatih dalam bidang konstruksi, mekanikal, piping, insulation pipa, sipil dan maintenance service kami selalu mengedepankan kualitas, kecepatan serta harga yang terbaik untuk membuat seluruh mitra dan klien kami merasa puas.'],
+            ['company-overview-text-6', 'Komitmen kami untuk menyelesaikan setiap karya kontruksi yang telah dipercayakan tidak terlepas dari peran setiap personil kami dalam melakukan perencanaan, pelaksanaan dan pengendalian proyek dengan berbagai manajemen dan metode kontruksi yang efektif, efisien dan selalu memperhatikan K3 (Keselamatan Kesehatan Kerja) karena sebagai wujud dari rangkaian proses pembelajaran dan pengalaman perusahaan melalui manajemen teknologi dan metode kontruksi yang efektif dan efisien kami siap memberikan pelayanan jasa kontruksi terbaik dalam menciptakan karya kontruksi yang lebih nyata.'],
+            ['company-overview-text-7', ''],
+            ['company-overview-text-8', ''],
             ['vision-mission-title', 'Vision and Mission'],
             ['vision-mission-text', 'Pada saat ini CV. Sumber Waras Sukses berkomitmen menawarkan dan memberikan solusi terbaik dalam melaksanakan pekerjaan sesuai kontrak yang disepakati. Komitmen perusahaan tersebut dibangun dengan tujuan untuk meningkatkan kepuasan pelanggan secara nyata dengan menghasilkan kontruksi berkualitas dan tepat waktu yang didukung dengan tenaga SDM yang profesional.'],
             ['vision-mission-subtitle-1', 'Vision'],

@@ -11,7 +11,7 @@ class LandingController extends Controller
     // show home page
     public function index()
     {
-        $projects = Project::orderByDesc('created_at')->take(3)->get();
+        $projects = Project::orderByDesc('date')->take(3)->get();
         // $projects = [];
         $data = [
             'menu' => 'home',

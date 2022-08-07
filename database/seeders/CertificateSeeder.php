@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Certificate;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
@@ -15,6 +16,7 @@ class CertificateSeeder extends Seeder
      */
     public function run()
     {
+        Certificate::truncate();
         $certificates = [
             [
                 // id: 1

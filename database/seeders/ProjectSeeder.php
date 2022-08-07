@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Project;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
@@ -15,6 +16,7 @@ class ProjectSeeder extends Seeder
      */
     public function run()
     {
+        Project::truncate();
         $projects = [
             // page 7
             [
@@ -53,6 +55,28 @@ class ProjectSeeder extends Seeder
                 'PT Molindo Raya Industrial, Lawang',
                 '2019-01-16',
             ],
+
+            // push to latest projects
+            [
+                // id: 6
+                'Insulation Pipa',
+                'Pekerjaan insulation pipa di area preparation dan area filling PT Meiji Indonesian Pharmaceutical Industries',
+                'PT Meiji Indonesian Pharmaceutical Industries',
+                '2021-09-21',
+            ],[
+                // id: 7
+                'Pembangunan Gadung TPS B3',
+                'Pekerjaan pembangunan gedung TPS B3 di area PT Molindo Raya Industrial Lawang',
+                'PT Molindo Raya Industrial, Lawang',
+                '2021-09-23',
+            ],[
+                // id: 8
+                'Pengecetan Sandblast',
+                'Pekerjaan pengecetan material struktur pendukung evaporator 60B di area PT Molindo Raya Industrial Lawang',
+                'PT Molindo Raya Industrial, Lawang',
+                '2021-09-27',
+            ],
+            // end latest project
             // [
             //     // id: 6
             //     'MODIFIKASI CWS DAN CWR',
