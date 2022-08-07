@@ -2649,7 +2649,7 @@ E. Template Specific Elements
     min-width: 3rem;
     border-radius: 10px;
     border: 1px solid rgba(137, 18, 49, 1);
-    margin: 0 0.25rem;
+    margin: 0.25rem;
     text-transform: capitalize;
     font-weight: 500;
 }

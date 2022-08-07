@@ -27,7 +27,7 @@
                 @endforeach
             </div>
             @if ($projects->hasPages())
-            <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex flex-wrap align-items-center justify-content-center">
                 @if ($projects->currentPage() != 1)
                 @if ($projects->lastPage() > 2)
                 <!-- <a class="pagination" href="{{ $projects->url('1') }}">first</a> -->
