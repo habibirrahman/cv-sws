@@ -21,7 +21,7 @@ class ParagraphSeeder extends Seeder
             ['profile-title', 'Profile'],
             ['profile-text-1', 'Berawal dari aktifitas dan kegiatan sebagai tenaga freelance dalam bidang konstruksi, mekanikal, piping, insulation pipa, sipil, dan maintenance service di beberapa perusahaan area Jawa Timur, maka berkumpullah kami para engineer muda ini untuk memulai pengabdian dan karir profesional kami sebuah melalui perusahaan yang mandiri CV. Sumber Waras Sukses.'],
             ['profile-text-2', 'CV. Sumber Waras Sukses didirikan di Malang pada tanggal 1 Februari 2018. Sekalipun masih relatif muda, namun para engineer kami adalah personil yang telah mempunyai pengalaman yang sangat banyak dalam bidangbidang konstruksi baja, konstruksi sipil, insulation pipa, fabrikasi manufaktur, erection struktur, dan pekerjaan sejenis lainnya'],
-            ['profile-text-3', 'Pemilihan nama CV. Sumber Waras Sukses sendiri berasal dari daerah tempat tinggal kami yaitu Sumber Waras, sedangkan Sukses, itulah tujuan yang ingin dicapai dari pendirian perusahaan ini, yaitu menjadi perusahaan yang didukung oleh tenaga-tenaga profesional yang melakukan pekerjaannya secara profesional.'],
+            ['profile-text-3', ''],
             ['profile-text-4', ''],
             ['scope-of-work-title', 'Scope of Work'],
             ['scope-of-work-subtitle-1', 'General Contractor'],
