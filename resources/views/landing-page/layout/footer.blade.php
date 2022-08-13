@@ -65,7 +65,7 @@
         </div>
     </section>
 
-    <div class="text-center text-white py-4" data-bg-color="linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 30%, rgba(228, 110, 76, 1) 70%, rgba(252, 231, 39, 1) 100%)">
+    <div class="text-center text-white py-4" data-bg-color="linear-gradient(40deg, rgba(252, 231, 39, 1) 0%, rgba(228, 110, 76, 1) 10%, rgba(228, 110, 76, 1) 90%, rgba(252, 231, 39, 1) 100%)">
         @php ($year = date('Y'))
         <small>© {{ $year }} CV. Sumber Waras Sukses</small>
     </div>
