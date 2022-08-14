@@ -12,8 +12,9 @@
     <meta name="keywords" content="">
 
     <!-- Favicons -->
-    <link href="{{ asset('logo.png') }}" rel="icon">
-    <link href="{{ asset('logo.png') }}" rel="apple-touch-icon">
+    <link rel="shortcut icon" href="{{ asset('favicon.png') }}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('favicon.png') }}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('favicon.png') }}" />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
@@ -78,7 +79,7 @@
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid">
                     <div class="d-flex align-items-center justify-content-between small">
-                    @php ($year = date('Y'))
+                        @php ($year = date('Y'))
                         <div class="text-muted">Copyright &copy; CV. Sumber Waras Suskes {{ $year }}</div>
                         <div>
                             <a href="#">Privacy Policy</a>
