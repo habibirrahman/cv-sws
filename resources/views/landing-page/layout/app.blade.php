@@ -63,7 +63,7 @@
     <script src="{{ asset('landing-page/js/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ asset('landing-page/js/popper.min.js') }}"></script>
     <script src="{{ asset('landing-page/bootstrap/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('landing-page/js/imagesloaded.pkgd.min.js') }}"></script>
+    <!-- <script src="{{ asset('landing-page/js/imagesloaded.pkgd.min.js') }}"></script> -->
     <!-- <script src="http://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58"></script> -->
     <script src="{{ asset('landing-page/js/isInViewport.jquery.js') }}"></script>
     <script src="{{ asset('landing-page/js/jquery.magnific-popup.min.js') }}"></script>

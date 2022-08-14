@@ -7,14 +7,22 @@ var marqueeInitialized = 0;
 $(document).ready(function ($) {
     "use strict";
 
-    $("body").imagesLoaded(function () {
+    setTimeout(() => {
         $("body").addClass("loading-done");
         var $animatedWaves = $(".ts-animated-waves");
         $animatedWaves.css("transform", "translateX( calc( -100% + " + ($(window).width() + 5) + "px )");
         $animatedWaves.on("transitionend webkitTransitionEnd oTransitionEnd", function () {
             $(this).toggleClass("repeat");
         });
-    });
+    }, 1000);
+    // $("body").imagesLoaded(function () {
+    //     $("body").addClass("loading-done");
+    //     var $animatedWaves = $(".ts-animated-waves");
+    //     $animatedWaves.css("transform", "translateX( calc( -100% + " + ($(window).width() + 5) + "px )");
+    //     $animatedWaves.on("transitionend webkitTransitionEnd oTransitionEnd", function () {
+    //         $(this).toggleClass("repeat");
+    //     });
+    // });
 
     $('.navbar-nav .nav-link').on('click', function () {
         $('.navbar-collapse').collapse('hide');
