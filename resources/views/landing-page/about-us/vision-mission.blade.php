@@ -6,26 +6,26 @@
     <section id="what-youll-get" class="ts-block text-center pt-4">
         <div class="container">
             <div class="ts-title">
-                <h2>{{ $paragraphs->visionMision->title }}</h2>
+                <h2>{{ $paragraphs->visionMission->title }}</h2>
             </div>
-            <p>{{ $paragraphs->visionMision->text }}</p>
+            <p>{{ $paragraphs->visionMission->text }}</p>
             <figure data-animate="ts-fadeInUp">
                 <figure class="icon mb-5 p-2">
-                    <img src="{{ asset('assets/img/'.$paragraphs->visionMision->image->url ) }}" class="w-100" alt="{{ $paragraphs->visionMision->image->identifier }}">
-                    <!-- <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image="{{ asset('assets/img/'.$paragraphs->visionMision->image->url ) }}"></div> -->
+                    <img src="{{ asset('assets/img/'.$paragraphs->visionMission->image->url ) }}" class="w-100" alt="{{ $paragraphs->visionMission->image->identifier }}">
+                    <!-- <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image="{{ asset('assets/img/'.$paragraphs->visionMission->image->url ) }}"></div> -->
                 </figure>
             </figure>
             <div class="row">
                 <div class="col-sm-6 col-md-6 col-xl-6">
                     <figure data-animate="ts-fadeInUp">
-                        <h4>{{ $paragraphs->visionMision->subtitle1 }}</h4>
-                        <p>{{ $paragraphs->visionMision->text1 }}</p>
+                        <h4>{{ $paragraphs->visionMission->subtitle1 }}</h4>
+                        <p>{{ $paragraphs->visionMission->text1 }}</p>
                     </figure>
                 </div>
                 <div class="col-sm-6 col-md-6 col-xl-6">
                     <figure data-animate="ts-fadeInUp" data-delay="0.1s">
-                        <h4>{{ $paragraphs->visionMision->subtitle2 }}</h4>
-                        <p>{{ $paragraphs->visionMision->text2 }}</p>
+                        <h4>{{ $paragraphs->visionMission->subtitle2 }}</h4>
+                        <p>{{ $paragraphs->visionMission->text2 }}</p>
                     </figure>
                 </div>
             </div>

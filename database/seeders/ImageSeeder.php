@@ -20,14 +20,13 @@ class ImageSeeder extends Seeder
         $images = [
             ['favicon', 'favicon.png'],
             ['logo', 'logo.png'],
-            ['profile', 'profile.jpg'],
+            ['profile-1', 'profile.jpg'],
             ['scope-of-work-1', 'scope-of-work-1.jpg'],
             ['scope-of-work-2', 'scope-of-work-2.jpg'],
             ['scope-of-work-3', 'scope-of-work-3.jpg'],
-            ['partner', 'partner-150x75.png'],
-            ['company-overview', 'company-overview-1100x350.png'],
-            ['vison-misson', 'vison-misson-1100x350.png'],
-            ['organozation-chart', 'organozation-chart-1140x1800.png'],
+            ['company-overview-1', 'company-overview-1100x350.png'],
+            ['vison-misson-1', 'vison-misson-1100x350.png'],
+            ['organozation-chart-1', 'organozation-chart-1140x1800.png'],
             ['project', 'project-300x300.png'],
             ['certificate', 'certificate-800x1250.png'],
         ];

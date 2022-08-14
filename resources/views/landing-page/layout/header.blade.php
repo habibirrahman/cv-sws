@@ -15,7 +15,7 @@
             </a>
             <div class="text-sm dropdown-menu" aria-labelledby="dropdownAboutUs">
               <a class="dropdown-item {{ $data['submenu'] === 'company-overview' ? 'actived' : '' }}" href="{{ route('landing-page.company-overview') }}">Company Overview</a>
-              <a class="dropdown-item {{ $data['submenu'] === 'vision-mision' ? 'actived' : '' }}" href="{{ route('landing-page.vision-mission') }}">Vision and Mission</a>
+              <a class="dropdown-item {{ $data['submenu'] === 'vision-mission' ? 'actived' : '' }}" href="{{ route('landing-page.vision-mission') }}">Vision and Mission</a>
               <a class="dropdown-item {{ $data['submenu'] === 'organization-chart' ? 'actived' : '' }}" href="{{ route('landing-page.organization-chart') }}">Organization Chart</a>
             </div>
           </div>
