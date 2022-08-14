@@ -8,7 +8,7 @@
         <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('favicon.png') }}" />
         <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('favicon.png') }}" />
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>Admin CV. Sumber Waras Suskes</title>
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
