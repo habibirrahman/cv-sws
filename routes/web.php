@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\LandingController;
 
 /*
@@ -38,6 +39,9 @@ Route::middleware([
     Route::post('/admin/company-overview', [AdminController::class, 'saveCompanyOverview'])->name('save.company-overview');
     Route::post('/admin/vision-mission', [AdminController::class, 'saveVisionMission'])->name('save.vision-mission');
     Route::post('/admin/organization-chart', [AdminController::class, 'saveOrganizationChart'])->name('save.organization-chart');
+
+    Route::get('/admin/projects/add', [ProjectController::class, 'add'])->name('projects.add');
+    Route::resource('admin/projects', ProjectController::class);
 
     Route::get('/dashboard', function () {
         return view('dashboard');

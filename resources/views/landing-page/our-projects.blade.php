@@ -21,7 +21,7 @@
                     <div class="ts-element d-inline-block mb-4" data-animate="ts-fadeInLeft">
                         <div class="my-2 font-weight-bold">{{ $project->name }}</div>
                         <div class="ts-opacity__80">{{ $project->location }}</div>
-                        <p class="text-center">{{ $project->date }}</p>
+                        <p class="text-center">{{ $project->dateFormatted }}</p>
                     </div>
                 </div>
                 @endforeach

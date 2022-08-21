@@ -127,7 +127,7 @@
                         <h3 class="mb-2">{{ $projects[0]->name }}</h3>
                     </div>
                     <p class="mb-1">{{ $projects[0]->description }}</p>
-                    {{ $projects[0]->date }}
+                    {{ $projects[0]->dateFormatted }}
                 </div>
             </div>
             <div class="row">
@@ -137,7 +137,7 @@
                             <h4 class="mb-2">{{ $projects[1]->name }}</h4>
                         </div>
                         <p class="mb-1">{{ $projects[1]->description }}</p>
-                        {{ $projects[1]->date }}
+                        {{ $projects[1]->dateFormatted }}
                     </div>
                     <div class="col-md-6 text-center mb-2" data-animate="ts-fadeInUp" data-delay="0.1s">
                         <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
@@ -155,7 +155,7 @@
                             <h4 class="mb-2">{{ $projects[2]->name }}</h4>
                         </div>
                         <p class="mb-1">{{ $projects[2]->description }}</p>
-                        {{ $projects[2]->date }}
+                        {{ $projects[2]->dateFormatted }}
                     </div>
                     <div class="col-md-6 text-center mb-2" data-animate="ts-fadeInUp" data-delay="0.1s">
                         <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">

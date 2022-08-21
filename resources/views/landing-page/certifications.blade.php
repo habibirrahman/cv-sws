@@ -90,7 +90,7 @@
                         <tr>
                             <td class="certificate-label">Tanggal</td>
                             <td class="px-2 d-flex">:</td>
-                            <td>{{ $certificate->date }}</td>
+                            <td>{{ $certificate->dateFormatted }}</td>
                         </tr>
                         @endif
                     </table>
@@ -187,7 +187,7 @@
                         <tr>
                             <td class="certificate-label">Tanggal</td>
                             <td class="px-2 d-flex">:</td>
-                            <td>{{ $certificate->date }}</td>
+                            <td>{{ $certificate->dateFormatted }}</td>
                         </tr>
                         @endif
                     </table>

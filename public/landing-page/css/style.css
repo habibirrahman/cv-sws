@@ -2133,6 +2133,7 @@ E. Template Specific Elements
 
 .ts-time-line__horizontal .owl-stage-outer {
     padding: 1rem 1rem 0 1rem;
+    border-radius: 10px;
 }
 
 .ts-time-line__horizontal .owl-stage {

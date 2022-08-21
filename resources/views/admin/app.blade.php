@@ -63,6 +63,14 @@
                             <div class="sb-nav-link-icon"><i class="fas fa-id-card"></i></div>
                             About Us
                         </a>
+                        <a class="nav-link" href="{{ route('projects.index') }}">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tasks"></i></div>
+                            Our Projects
+                        </a>
+                        <a class="nav-link" href="{{ route('admin.about-us') }}">
+                            <div class="sb-nav-link-icon"><i class="fas fa-file-signature"></i></div>
+                            Certifications
+                        </a>
                     </div>
                 </div>
                 <div class="sb-sidenav-footer">

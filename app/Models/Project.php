@@ -19,8 +19,9 @@ class Project extends Model
     {
         return $this->hasMany('App\Models\Image');
     }
-    public function getDateAttribute($value)
+    public function getDateFormattedAttribute()
     {
+        $value = $this->date;
         $months = [
             1 =>   'Januari',
             'Februari',
