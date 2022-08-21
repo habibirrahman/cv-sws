@@ -97,7 +97,11 @@
                 </div>
                 <div class="col-sm-4 col-md-4 col-xl-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
                     <div class="mb-4 certificate-image">
-                        <img id="certificate-1" onclick="openModalImage('certificate-1')" src="{{ asset('assets/img/certificate-800x1250.png') }}" class="mw-100" alt="Akta Pendirian">
+                        @if (count($certificate->images) > 0)
+                        <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/certificates/'.$certificate->images[0]->url) }}" alt="{{ $certificate->title }}">
+                        @else
+                        <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/img/certificate-800x1250.png') }}" alt="{{ $certificate->title }}">
+                        @endif
                     </div>
                 </div>
             </div>
@@ -105,7 +109,11 @@
             <div class="col-sm-12 col-md-12 col-xl-10 ml-auto mr-auto d-flex flex-column flex-sm-row mb-4">
                 <div class="col-sm-4 col-md-4 col-xl-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
                     <div class="mb-4 certificate-image">
-                        <img id="certificate-2" onclick="openModalImage('certificate-2')" src="{{ asset('assets/img/certificate-800x1250.png') }}" class="mw-100" alt="Akta Pendirian">
+                        @if (count($certificate->images) > 0)
+                        <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/certificates/'.$certificate->images[0]->url) }}" alt="{{ $certificate->title }}">
+                        @else
+                        <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/img/certificate-800x1250.png') }}" alt="{{ $certificate->title }}">
+                        @endif
                     </div>
                 </div>
                 <div class="col-sm-8 col-md-8 col-xl-8" data-animate="ts-fadeInUp">
