@@ -54,22 +54,22 @@
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                        <div class="sb-sidenav-menu-heading">Page</div>
+                        <div class="sb-sidenav-menu-heading">Pages</div>
                         <a class="nav-link" href="{{ route('admin') }}">
                             <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
                             Home
                         </a>
                         <a class="nav-link" href="{{ route('admin.about-us') }}">
                             <div class="sb-nav-link-icon"><i class="fas fa-id-card"></i></div>
-                            About Us
+                            About
                         </a>
                         <a class="nav-link" href="{{ route('projects.index') }}">
                             <div class="sb-nav-link-icon"><i class="fas fa-tasks"></i></div>
-                            Our Projects
+                            Projects
                         </a>
                         <a class="nav-link" href="{{ route('certificates.index') }}">
                             <div class="sb-nav-link-icon"><i class="fas fa-file-signature"></i></div>
-                            Certifications
+                            Certificates
                         </a>
                     </div>
                 </div>
