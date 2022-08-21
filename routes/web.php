@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\CertificateController;
 use App\Http\Controllers\LandingController;
 
 /*
@@ -42,6 +43,9 @@ Route::middleware([
 
     Route::get('/admin/projects/add', [ProjectController::class, 'add'])->name('projects.add');
     Route::resource('admin/projects', ProjectController::class);
+
+    Route::get('/admin/certificates/add', [CertificateController::class, 'add'])->name('certificates.add');
+    Route::resource('admin/certificates', CertificateController::class);
 
     Route::get('/dashboard', function () {
         return view('dashboard');
