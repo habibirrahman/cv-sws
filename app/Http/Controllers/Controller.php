@@ -114,7 +114,6 @@ class Controller extends BaseController
         $payload->text2 = Paragraph::where('identifier', 'organization-chart-text-2')->first()->text;
         $payload->text3 = Paragraph::where('identifier', 'organization-chart-text-3')->first()->text;
         $payload->text4 = Paragraph::where('identifier', 'organization-chart-text-4')->first()->text;
-        $payload->image = Image::where('identifier', 'organozation-chart-1')->first();
         return $payload;
     }
 

@@ -26,8 +26,6 @@ class ImageSeeder extends Seeder
             ['scope-of-work-3', 'scope-of-work-3.jpg'],
             ['company-overview-1', 'company-overview-1100x350.png'],
             ['vison-misson-1', 'vison-misson-1100x350.png'],
-            ['organozation-chart-1', 'organozation-chart-1140x1800.png'],
-            ['project', 'project-300x300.png'],
             ['certificate', 'certificate-800x1250.png'],
         ];
         foreach ($images as $item) {

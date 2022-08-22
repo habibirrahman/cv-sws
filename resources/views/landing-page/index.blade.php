@@ -116,7 +116,7 @@
                 <div class="col-sm-6 col-md-4 text-center mb-2" data-animate="ts-fadeInUp" data-delay="0.1s">
                     <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
                         @foreach ($projects[0]->images as $image)
-                        <blockquote class="blockquote image mb-0 pb-0">
+                        <blockquote class="blockquote image mb-0 px-1 py-0">
                             <img id="project-{{ $image->id }}" onclick="openModalImage('project-{{ $image->id }}')" src="{{ asset('assets/projects/'.$image->url) }}" alt="{{ $projects[0]->description }}">
                         </blockquote>
                         @endforeach
@@ -142,7 +142,7 @@
                     <div class="col-md-6 text-center mb-2" data-animate="ts-fadeInUp" data-delay="0.1s">
                         <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
                             @foreach ($projects[1]->images as $image)
-                            <blockquote class="blockquote image-sm mb-0 pb-0">
+                            <blockquote class="blockquote image-sm mb-0 px-1 py-0">
                                 <img id="project-{{ $image->id }}" onclick="openModalImage('project-{{ $image->id }}')" src="{{ asset('assets/projects/'.$image->url) }}" alt="{{ $projects[1]->description }}">
                             </blockquote>
                             @endforeach
@@ -160,7 +160,7 @@
                     <div class="col-md-6 text-center mb-2" data-animate="ts-fadeInUp" data-delay="0.1s">
                         <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
                             @foreach ($projects[2]->images as $image)
-                            <blockquote class="blockquote image-sm mb-0 pb-0">
+                            <blockquote class="blockquote image-sm mb-0 px-1 py-0">
                                 <img id="project-{{ $image->id }}" onclick="openModalImage('project-{{ $image->id }}')" src="{{ asset('assets/projects/'.$image->url) }}" alt="{{ $projects[2]->description }}">
                             </blockquote>
                             @endforeach

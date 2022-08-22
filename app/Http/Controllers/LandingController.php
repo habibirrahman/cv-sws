@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Project;
 use App\Models\Paragraph;
 use App\Models\Certificate;
+use App\Models\Image;
 
 class LandingController extends Controller
 {
@@ -59,7 +60,28 @@ class LandingController extends Controller
         $paragraphs = new Paragraph();
         $paragraphs->organizationChart = $this->getOrganizationChart();
         $paragraphs->contactUs = $this->getContactUs();
-        return view('landing-page.about-us.organization-chart', compact('data', 'paragraphs'));
+        $images = [];
+        array_push($images, $this->assignChart(1, 'Yunani Puji Astuti', 'Director', 'DIRECTOR-YUNANI PUJI ASTUTI'));
+        array_push($images, $this->assignChart(2, 'Hariyanto', 'Project Manager', 'PROJECT MANAGER-HARIYANTO'));
+        array_push($images, $this->assignChart(3, 'Hendra Gunawan', 'Tax Officer', 'PROJECT MANAGER-HARIYANTO'));
+        array_push($images, $this->assignChart(4, 'Rosarina A.', 'Admin Manager', 'ADMIN MANAGER-ROSARINA A.'));
+        array_push($images, $this->assignChart(5, 'Putri Audina', 'HSE Officer', 'ADMIN MANAGER-ROSARINA A.'));
+        array_push($images, $this->assignChart(6, 'Irsa A.', 'Warehouse Admin', 'WAREHOUSE ADMIN-IRSA A.'));
+        array_push($images, $this->assignChart(7, 'Suhariyadi', 'Logistic', 'LOGISTIC-SUHARIYADI'));
+        array_push($images, $this->assignChart(8, 'Anjarnoko', 'Civil Structure', 'CIVIL STRUCTURE-ANJARNOKO'));
+        array_push($images, $this->assignChart(9, 'Slamet Riwayadi', 'Steel Structure', 'STEEL STRUCTURE-SLAMET RIWAYADI'));
+        array_push($images, $this->assignChart(10, 'Arif Wahyudi', 'Driver', 'DRIVER-ARIF WAHYUDI'));
+        return view('landing-page.about-us.organization-chart', compact('data', 'paragraphs', 'images'));
+    }
+    public function assignChart($id, $name, $position, $url)
+    {
+        $image = new Image();
+        $image->id = $id;
+        $image->name = $name;
+        $image->position = $position;
+        $image->url = $url . '.png';
+        $image->urlOverlay = $url . ' OVER.png';
+        return $image;
     }
     // show our projects
     public function ourProjects()

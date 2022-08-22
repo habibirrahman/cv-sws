@@ -2660,9 +2660,21 @@ E. Template Specific Elements
 ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
-  }
+}
 
 .pagination.actived {
     color: white;
     background: rgba(137, 18, 49, 1);
+}
+
+
+.chart-image {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.chart-image:hover {
+    visibility: hidden;
+    opacity: 0;
 }

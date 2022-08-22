@@ -20,13 +20,7 @@
                 <label for="text-2">Organization Chart Text 2</label>
                 <textarea class="form-control" name="text-2" id="text-2" rows="4">{{ $data->text2 }}</textarea>
             </div>
-            <div class="mb-2">
-                <img class="rounded-lg" src="{{ asset('assets/img/'.$data->image->url) }}" alt="{{ $data->image->identifier }}">
-            </div>
-            <div class="form-group">
-                <label for="image-1">Organization Chart Image</label>
-                <input type="file" class="form-control-file" id="image-1" name="image-1">
-            </div>
+            <hr />
             <div class="form-group">
                 <label for="text-3">Organization Chart Text 3</label>
                 <textarea class="form-control" name="text-3" id="text-3" rows="4">{{ $data->text3 }}</textarea>

@@ -12,7 +12,7 @@
                 <label for="title">Title</label>
                 <input type="text" class="form-control" name="title" id="title" placeholder="Profile" value="{{ $data->title }}">
             </div>
-            <div class="mb-2">
+            <div class="mb-2 d-flex justify-content-center">
                 <img class="rounded-lg" src="{{ asset('assets/img/'.$data->image->url) }}" alt="{{ $data->image->identifier }}">
             </div>
             <div class="form-group">

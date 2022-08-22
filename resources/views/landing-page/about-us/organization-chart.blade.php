@@ -10,12 +10,23 @@
             </div>
             <p>{{ $paragraphs->organizationChart->text1 }}</p>
             <p>{{ $paragraphs->organizationChart->text2 }}</p>
-            <div class="row align-items-center">
-                <div class="col-md-12 my-5 d-flex justify-content-center align-items-center">
-                    <div class="image position-relative">
-                        <img src="{{ asset('assets/img/'.$paragraphs->organizationChart->image->url) }}" class="mw-100" alt="{{ $paragraphs->organizationChart->image->identifier }}" data-animate="ts-zoomInShort" data-delay=".1s">
+            <div class="d-flex flex-wrap justify-content-center">
+                @foreach ($images as $image)
+                <div class="col-4 mb-4" style="cursor: pointer;">
+                    <div class="position-relative">
+                        <div class="image-holder chart-image position-absolute" style="top: 0; left: 0; z-index: 10;">
+                            <img src="{{ asset('assets/organization-chart/'.$image->urlOverlay) }}" alt="{{ $image->name.' as '.$image->position }}" onclick="openModalImage('chart-{{ $image->id }}')">
+                        </div>
+                        <div class="image-holder">
+                            <img id="chart-{{ $image->id }}" src="{{ asset('assets/organization-chart/'.$image->url) }}" alt="{{ $image->name.' as '.$image->position }}">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="mt-2">{{ $image->name }}</div>
+                        <div class="mt-2"><b>{{ $image->position }}</b></div>
                     </div>
                 </div>
+                @endforeach
             </div>
             <p>{{ $paragraphs->organizationChart->text3 }}</p>
             <p>{{ $paragraphs->organizationChart->text4 }}</p>

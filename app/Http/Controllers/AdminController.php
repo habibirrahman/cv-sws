@@ -76,7 +76,6 @@ class AdminController extends Controller
     public function saveOrganizationChart(Request $request)
     {
         $this->saveContent($request, 'organization-chart');
-        $this->saveImageByIdentifier($request, 'organization-chart', 'assets/img/', 'admin.about-us');
         return redirect()->route('admin.about-us')
             ->with('success', 'Organization chart has been updated!');;
     }
