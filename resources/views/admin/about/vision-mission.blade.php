@@ -16,7 +16,7 @@
                 <label for="text">Vision Mission Text</label>
                 <textarea class="form-control" name="text" id="text" rows="4">{{ $data->text }}</textarea>
             </div>
-            <div class="mb-2">
+            <div class="mb-2 d-flex justify-content-center">
                 <img class="rounded-lg" src="{{ asset('assets/img/'.$data->image->url) }}" alt="{{ $data->image->identifier }}">
             </div>
             <div class="form-group">
