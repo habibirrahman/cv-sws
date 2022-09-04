@@ -24,9 +24,9 @@ class ImageSeeder extends Seeder
             ['scope-of-work-1', 'scope-of-work-1.jpg'],
             ['scope-of-work-2', 'scope-of-work-2.jpg'],
             ['scope-of-work-3', 'scope-of-work-3.jpg'],
-            ['company-overview-1', 'company-overview-1100x350.png'],
-            ['vison-misson-1', 'vison-misson-1100x350.png'],
-            ['certificate', 'certificate-800x1250.png'],
+            ['company-overview-1', 'company-overview.jpg'],
+            ['vison-misson-1', 'vision-mission.jpg'],
+            ['certificate', 'certificate.png'],
         ];
         foreach ($images as $item) {
             DB::table('images')->insert([
