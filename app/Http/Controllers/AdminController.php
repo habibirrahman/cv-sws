@@ -32,7 +32,6 @@ class AdminController extends Controller
 
     public function saveProfile(Request $request)
     {
-        dd($request->file());
         $this->saveContent($request, 'profile');
         $this->saveImageByIdentifier($request, 'profile', 'assets/img/', 'admin');
         return redirect()->route('admin')

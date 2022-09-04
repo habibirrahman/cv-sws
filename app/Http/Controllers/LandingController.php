@@ -24,7 +24,6 @@ class LandingController extends Controller
         $paragraphs->ourClientsTitle = Paragraph::where('identifier', 'our-clients-title')->first()->text;
         $paragraphs->contactUs = $this->getContactUs();
         $projects = Project::orderByDesc('date')->take(3)->get();
-        // dd($paragraphs);
         return view('landing-page.index', compact('data', 'paragraphs', 'projects'));
     }
 
