@@ -62,9 +62,9 @@ class LandingController extends Controller
         $images = [];
         array_push($images, $this->assignChart(1, 'Yunani Puji Astuti', 'Director', 'DIRECTOR-YUNANI PUJI ASTUTI'));
         array_push($images, $this->assignChart(2, 'Hariyanto', 'Project Manager', 'PROJECT MANAGER-HARIYANTO'));
-        array_push($images, $this->assignChart(3, 'Hendra Gunawan', 'Tax Officer', 'PROJECT MANAGER-HARIYANTO'));
+        array_push($images, $this->assignChart(3, 'Hendra Gunawan', 'Tax Officer', 'TAX OFFICER-HENDRA GUNAWAN'));
         array_push($images, $this->assignChart(4, 'Rosarina A.', 'Admin Manager', 'ADMIN MANAGER-ROSARINA A.'));
-        array_push($images, $this->assignChart(5, 'Putri Audina', 'HSE Officer', 'ADMIN MANAGER-ROSARINA A.'));
+        array_push($images, $this->assignChart(5, 'Putri Audina', 'HSE Officer', 'HSE OFFICER-PUTRI AUDINA'));
         array_push($images, $this->assignChart(6, 'Irsa A.', 'Warehouse Admin', 'WAREHOUSE ADMIN-IRSA A.'));
         array_push($images, $this->assignChart(7, 'Suhariyadi', 'Logistic', 'LOGISTIC-SUHARIYADI'));
         array_push($images, $this->assignChart(8, 'Anjarnoko', 'Civil Structure', 'CIVIL STRUCTURE-ANJARNOKO'));
