@@ -100,7 +100,7 @@
                         @if (count($certificate->images) > 0)
                         <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/certificates/'.$certificate->images[0]->url) }}" alt="{{ $certificate->title }}">
                         @else
-                        <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/img/certificate-800x1250.png') }}" alt="{{ $certificate->title }}">
+                        <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/img/certificate.png') }}" alt="{{ $certificate->title }}">
                         @endif
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                         @if (count($certificate->images) > 0)
                         <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/certificates/'.$certificate->images[0]->url) }}" alt="{{ $certificate->title }}">
                         @else
-                        <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/img/certificate-800x1250.png') }}" alt="{{ $certificate->title }}">
+                        <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/img/certificate.png') }}" alt="{{ $certificate->title }}">
                         @endif
                     </div>
                 </div>
