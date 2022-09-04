@@ -38,6 +38,9 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
-# public/assets/projects
-# /public/assets/projects
-# public_html/assets/projects
+public/assets/projects
+/public/assets/projects
+public_html/assets/projects
+public/assets/img
+/public/assets/img
+public_html/assets/img
