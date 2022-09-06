@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{ asset('landing-page/css/magnific-popup.css') }}">
     <link rel="stylesheet" href="{{ asset('landing-page/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('landing-page/css/style.css') }}">
-    <title>CV. Sumber Waras Suskes</title>
+    <title>CV. Sumber Waras Sukses</title>
 
 </head>
 

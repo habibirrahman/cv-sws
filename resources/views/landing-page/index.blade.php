@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-md-6">
                 <h3 class="ts-opacity__50">We Are Introducing</h3>
-                <h1>CV. Sumber Waras Suskes</h1>
+                <h1>CV. Sumber Waras Sukses</h1>
             </div>
         </div>
         <!-- <a href="#what-youll-get" class="btn btn-primary ts-scroll">Learn More</a>

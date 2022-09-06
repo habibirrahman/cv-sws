@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>Admin CV. Sumber Waras Suskes</title>
+    <title>Admin CV. Sumber Waras Sukses</title>
     <meta name="author" content="" />
     <meta name="description" content="" />
     <meta name="keywords" content="">
@@ -26,7 +26,7 @@
 
 <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-        <a class="navbar-brand" href="{{ route('admin') }}">CV. Sumber Waras Suskes</a>
+        <a class="navbar-brand" href="{{ route('admin') }}">CV. Sumber Waras Sukses</a>
         <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
         <!-- Navbar Search-->
         <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
@@ -88,7 +88,7 @@
                 <div class="container-fluid">
                     <div class="d-flex align-items-center justify-content-between small">
                         @php ($year = date('Y'))
-                        <div class="text-muted">Copyright &copy; CV. Sumber Waras Suskes {{ $year }}</div>
+                        <div class="text-muted">Copyright &copy; CV. Sumber Waras Sukses {{ $year }}</div>
                         <div>
                             <a href="#">Privacy Policy</a>
                             &middot;
