@@ -10,8 +10,8 @@
             </div>
             @foreach ($certificates as $key => $certificate)
             @if ($key % 2 === 0)
-            <div class="col-sm-12 col-md-12 col-xl-10 ml-auto mr-auto d-flex flex-column-reverse flex-sm-row mb-4">
-                <div class="col-8" data-animate="ts-fadeInUp">
+            <div class="col-sm-12 col-md-12 col-xl-10 ml-auto mr-auto d-flex flex-column-reverse flex-sm-row mb-4 border-bottom">
+                <div class="col-12 col-md-8 mb-4" data-animate="ts-fadeInUp">
                     <div class="ts-title mb-0">
                         <h2 class="mb-2">{{ $certificate->title }}</h2>
                     </div>
@@ -95,8 +95,8 @@
                         @endif
                     </table>
                 </div>
-                <div class="col-4 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-                    <div class="mb-4 certificate-image">
+                <div class="col-12 col-md-4 text-center mb-4 " data-animate="ts-fadeInUp" data-delay="0.1s">
+                    <div class="certificate-image">
                         @if (count($certificate->images) > 0)
                         <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/certificates/'.$certificate->images[0]->url) }}" alt="{{ $certificate->title }}">
                         @else
@@ -106,9 +106,9 @@
                 </div>
             </div>
             @else
-            <div class="col-sm-12 col-md-12 col-xl-10 ml-auto mr-auto d-flex flex-column flex-sm-row mb-4">
-                <div class="{{ $certificate->title === 'Sertifikat Badan Usaha' ? 'col-6' : 'col-4' }} text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
-                    <div class="mb-4 certificate-image">
+            <div class="col-sm-12 col-md-12 col-xl-10 ml-auto mr-auto d-flex flex-column flex-sm-row mb-4 border-bottom">
+                <div class="{{ $certificate->title === 'Sertifikat Badan Usaha' ? 'col-md-6' : 'col-md-4' }} col-12 text-center mb-4" data-animate="ts-fadeInUp" data-delay="0.1s">
+                    <div class="certificate-image">
                         @if (count($certificate->images) > 0)
                         <img id="certificate-{{ $certificate->id }}" onclick="openModalImage('certificate-{{ $certificate->id }}')" class="mw-100" src="{{ asset('assets/certificates/'.$certificate->images[0]->url) }}" alt="{{ $certificate->title }}">
                         @else
@@ -116,7 +116,7 @@
                         @endif
                     </div>
                 </div>
-                <div class="{{ $certificate->title === 'Sertifikat Badan Usaha' ? 'col-6' : 'col-8' }}" data-animate="ts-fadeInUp">
+                <div class="{{ $certificate->title === 'Sertifikat Badan Usaha' ? 'col-md-6' : 'col-md-8' }} col-12 mb-4" data-animate="ts-fadeInUp">
                     <div class="ts-title mb-0">
                         <h2 class="mb-2">{{ $certificate->title }}</h2>
                     </div>
