@@ -22,6 +22,10 @@
                         <label for="text-2">Profile Text 2</label>
                         <textarea class="form-control" name="text-2" id="text-2" rows="6">{{ $data->text2 }}</textarea>
                     </div>
+                    <div class="form-group">
+                        <label for="text-3">Profile Text 3</label>
+                        <textarea class="form-control" name="text-3" id="text-3" rows="6">{{ $data->text3 }}</textarea>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="mb-2">
@@ -34,12 +38,16 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="text-3">Profile Text 3</label>
-                <textarea class="form-control" name="text-3" id="text-3" rows="4">{{ $data->text3 }}</textarea>
-            </div>
-            <div class="form-group">
                 <label for="text-4">Profile Text 4</label>
                 <textarea class="form-control" name="text-4" id="text-4" rows="4">{{ $data->text4 }}</textarea>
+            </div>
+            <div class="form-group">
+                <label for="text-5">Profile Text 5</label>
+                <textarea class="form-control" name="text-5" id="text-5" rows="4">{{ $data->text5 }}</textarea>
+            </div>
+            <div class="form-group">
+                <label for="text-6">Profile Text 6</label>
+                <textarea class="form-control" name="text-6" id="text-6" rows="4">{{ $data->text6 }}</textarea>
             </div>
             <button type="submit" class="btn btn-block btn-primary">Save Profile</button>
         </form>
