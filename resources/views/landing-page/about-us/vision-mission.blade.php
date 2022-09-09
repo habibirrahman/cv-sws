@@ -11,7 +11,7 @@
             <p>{{ $paragraphs->visionMission->text }}</p>
             <figure data-animate="ts-fadeInUp">
                 <figure class="icon mb-5 p-2">
-                    <img src="{{ asset('assets/img/'.$paragraphs->visionMission->image->url ) }}" class="w-100" alt="{{ $paragraphs->visionMission->image->identifier }}">
+                    <img src="{{ asset('assets/img/'.$paragraphs->visionMission->image->url ) }}" class="w-100" alt="{{ $paragraphs->visionMission->image->identifier }}" style="border-radius: 10px;">
                     <!-- <div class="ts-svg" data-animate="ts-zoomInShort" data-bg-image="{{ asset('assets/img/'.$paragraphs->visionMission->image->url ) }}"></div> -->
                 </figure>
             </figure>

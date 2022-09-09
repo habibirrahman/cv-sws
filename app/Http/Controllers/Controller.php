@@ -24,6 +24,8 @@ class Controller extends BaseController
         $payload->text2 = Paragraph::where('identifier', 'profile-text-2')->first()->text;
         $payload->text3 = Paragraph::where('identifier', 'profile-text-3')->first()->text;
         $payload->text4 = Paragraph::where('identifier', 'profile-text-4')->first()->text;
+        $payload->text5 = Paragraph::where('identifier', 'profile-text-5')->first()->text;
+        $payload->text6 = Paragraph::where('identifier', 'profile-text-6')->first()->text;
         $payload->image = Image::where('identifier', 'profile-1')->first();
         return $payload;
     }

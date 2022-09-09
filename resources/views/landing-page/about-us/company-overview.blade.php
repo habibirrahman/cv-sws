@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-md-12 col-xl-12 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
                     <div class="px-0 mb-4">
-                        <img src="{{ asset('assets/img/'.$paragraphs->companyOverview->image->url) }}" class="w-100" alt="{{ $paragraphs->companyOverview->image->identifier }}">
+                        <img src="{{ asset('assets/img/'.$paragraphs->companyOverview->image->url) }}" class="w-100" alt="{{ $paragraphs->companyOverview->image->identifier }}"  style="border-radius: 10px;">
                     </div>
                 </div>
             </div>

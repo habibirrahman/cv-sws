@@ -25,17 +25,17 @@
                 <h2>{{ $paragraphs->profile->title }}</h2>
             </div>
             <div class="row">
-                <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp">
+                <div class="col-12 col-md-6" data-animate="ts-fadeInUp">
                     <p>{{ $paragraphs->profile->text1 }}</p>
                     <p>{{ $paragraphs->profile->text2 }}</p>
+                    <p>{{ $paragraphs->profile->text3 }}</p>
                 </div>
-                <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
+                <div class="col-12 col-md-6 text-center" data-animate="ts-fadeInUp" data-delay="0.1s">
                     <div class="pb-4 image-holder">
                         <img src="{{ asset('assets/img/'.$paragraphs->profile->image->url) }}" class="mw-100" alt="{{ $paragraphs->profile->image->identifier }}">
                     </div>
                 </div>
             </div>
-            <p>{{ $paragraphs->profile->text3 }}</p>
             <p>{{ $paragraphs->profile->text4 }}</p>
         </div>
     </section>
@@ -116,7 +116,7 @@
                 <div class="col-sm-6 col-md-4 text-center mb-2" data-animate="ts-fadeInUp" data-delay="0.1s">
                     <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
                         @foreach ($projects[0]->images as $image)
-                        <blockquote class="blockquote image mb-0 px-1 py-0">
+                        <blockquote class="blockquote image mb-0 mx-1 py-0">
                             <img id="project-{{ $image->id }}" onclick="openModalImage('project-{{ $image->id }}')" src="{{ asset('assets/projects/'.$image->url) }}" alt="{{ $projects[0]->description }}">
                         </blockquote>
                         @endforeach

@@ -18,21 +18,8 @@ class CertificateSeeder extends Seeder
     {
         Certificate::truncate();
         $certificates = [
-            [ // 1 NIB
-                'Nomor Induk Berusaha', // 'title',
-                null, // 'notary',
-                null, // 'number',
-                '2020-09-03', // 'date',
-                null, // 'city',
-                null, // 'class_of_city',
-                null, // 'certificate_of_domicile',
-                'Badan Koordinasi Penanaman Modal', // 'published_by',
-                '0220506960832', // 'registration_number',
-                null, // 'tax_number',
-                null, // 'tax_letter',
-                null, // 'business_license',
-            ],
-            [ // 2 SIUP
+
+            [ // 1 Surat Izin Usaha Perusahaan (SIUP)
                 'Surat Izin Usaha Perusahaan (SIUP)', // 'title',
                 null, // 'notary',
                 '503/0050/SIUP-K/35.07.122/2018', // 'number',
@@ -46,7 +33,7 @@ class CertificateSeeder extends Seeder
                 null, // 'tax_letter',
                 null, // 'business_license',
             ],
-            [ // 3 Sertifikat Badan Usaha
+            [ // 2 Sertifikat Badan Usaha
                 'Sertifikat Badan Usaha', // 'title',
                 null, // 'notary',
                 null, // 'number',
@@ -60,7 +47,7 @@ class CertificateSeeder extends Seeder
                 null, // 'tax_letter',
                 null, // 'business_license',
             ],
-            [ // 4 Akta Pendirian
+            [ // 3 Akta Pendirian
                 'Akta Pendirian', // 'title',
                 'Wulandari Saputri, SH., M.Kn', // 'notary',
                 '1', // 'number',
@@ -74,7 +61,7 @@ class CertificateSeeder extends Seeder
                 null, // 'tax_letter',
                 null, // 'business_license',
             ],
-            [ // 5 Surat Keterangan Domisili Perusahaan
+            [ // 4 Surat Keterangan Domisili Perusahaan
                 'Surat Keterangan Domisili Perusahaan', // 'title',
                 null, // 'notary',
                 null, // 'number',
@@ -88,7 +75,7 @@ class CertificateSeeder extends Seeder
                 null, // 'tax_letter',
                 null, // 'business_license',
             ],
-            [ // 6 Tanda Daftar Perusahaan
+            [ // 5 Tanda Daftar Perusahaan
                 'Tanda Daftar Perusahaan', // 'title',
                 null, // 'notary',
                 '132534705024', // 'number',
@@ -102,7 +89,7 @@ class CertificateSeeder extends Seeder
                 null, // 'tax_letter',
                 null, // 'business_license',
             ],
-            [ // 7 Akta Perubahan
+            [ // 6 Akta Perubahan
                 'Akta Perubahan', // 'title',
                 'Ita Kirstiana, SH., M.Kn', // 'notary',
                 '4', // 'number',
@@ -116,34 +103,48 @@ class CertificateSeeder extends Seeder
                 null, // 'tax_letter',
                 null, // 'business_license',
             ],
-            [ // 8 Pengesahan oleh Menteri Kehakiman
-                'Pengesahan oleh Menteri Kehakiman', // 'title',
-                null, // 'notary',
-                'AHU-00077.AH.02.02 TAHUN 2017', // 'number',
-                '2017-12-15', // 'date',
-                null, // 'city',
-                null, // 'class_of_city',
-                null, // 'certificate_of_domicile',
-                null, // 'published_by',
-                null, // 'registration_number',
-                null, // 'tax_number',
-                null, // 'tax_letter',
-                null, // 'business_license',
-            ],
-            [ // 9 Pendaftaran di Pengadilan Negeri
-                'Pendaftaran di Pengadilan Negeri', // 'title',
-                null, // 'notary',
-                '60/CV/II/2018', // 'number',
-                '2018-02-07', // 'date',
-                'Kepanjen', // 'city',
-                'Kelas I-B', // 'class_of_city',
-                null, // 'certificate_of_domicile',
-                null, // 'published_by',
-                null, // 'registration_number',
-                null, // 'tax_number',
-                null, // 'tax_letter',
-                null, // 'business_license',
-            ],
+            // [ // 1 Nomor Induk Berusaha
+            //     'Nomor Induk Berusaha', // 'title',
+            //     null, // 'notary',
+            //     null, // 'number',
+            //     '2020-09-03', // 'date',
+            //     null, // 'city',
+            //     null, // 'class_of_city',
+            //     null, // 'certificate_of_domicile',
+            //     'Badan Koordinasi Penanaman Modal', // 'published_by',
+            //     '0220506960832', // 'registration_number',
+            //     null, // 'tax_number',
+            //     null, // 'tax_letter',
+            //     null, // 'business_license',
+            // ],
+            // [ // 8 Pengesahan oleh Menteri Kehakiman
+            //     'Pengesahan oleh Menteri Kehakiman', // 'title',
+            //     null, // 'notary',
+            //     'AHU-00077.AH.02.02 TAHUN 2017', // 'number',
+            //     '2017-12-15', // 'date',
+            //     null, // 'city',
+            //     null, // 'class_of_city',
+            //     null, // 'certificate_of_domicile',
+            //     null, // 'published_by',
+            //     null, // 'registration_number',
+            //     null, // 'tax_number',
+            //     null, // 'tax_letter',
+            //     null, // 'business_license',
+            // ],
+            // [ // 9 Pendaftaran di Pengadilan Negeri
+            //     'Pendaftaran di Pengadilan Negeri', // 'title',
+            //     null, // 'notary',
+            //     '60/CV/II/2018', // 'number',
+            //     '2018-02-07', // 'date',
+            //     'Kepanjen', // 'city',
+            //     'Kelas I-B', // 'class_of_city',
+            //     null, // 'certificate_of_domicile',
+            //     null, // 'published_by',
+            //     null, // 'registration_number',
+            //     null, // 'tax_number',
+            //     null, // 'tax_letter',
+            //     null, // 'business_license',
+            // ],
         ];
         foreach ($certificates as $item) {
             DB::table('certificates')->insert([

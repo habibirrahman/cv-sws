@@ -958,6 +958,7 @@ blockquote img,
 .project-image img {
     cursor: pointer;
     transition: 0.3s;
+    border-radius: 10px;
 }
 
 blockquote img:hover,

@@ -17,6 +17,7 @@ class ImageSeeder extends Seeder
     public function run()
     {
         Image::truncate();
+
         $images = [
             ['favicon', 'favicon.png'],
             ['logo', 'logo.png'],
@@ -35,6 +36,26 @@ class ImageSeeder extends Seeder
                 'created_at' => date('Y-m-d H:i:s'),
             ]);
         }
+
+        $certificates = [
+            [1, 'c1 Surat Izin Usaha Perusahaan (SIUP).png'],
+            [2, 'c2 Sertifikat Badan Usaha.png'],
+            [3, 'c3 Akta Pendirian.png'],
+            [4, 'c4 Surat Keterangan Domisili Perusahaan.png'],
+            [5, 'c5 Tanda Daftar Perusahaan.png'],
+            [6, 'c6 Akta Perubahan.png'],
+            // [1, 'c1 Nomor Induk Berusaha.png'],
+            // [8, 'c8 Pengesahan oleh Menteri Kehakiman.png'],
+            // [9, 'c9 Pendaftaran di Pengadilan Negeri.png'],
+        ];
+        foreach ($certificates as $item) {
+            DB::table('images')->insert([
+                'certificate_id' => $item[0],
+                'url' => $item[1],
+                'created_at' => date('Y-m-d H:i:s'),
+            ]);
+        }
+
         $projects = [
             [1, 'p1 Modifikasi Platform WTP N 1.jpg'],
             [1, 'p1 Modifikasi Platform WTP N 2.jpg'],
