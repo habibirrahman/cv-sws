@@ -18,7 +18,7 @@ class AdminSeeder extends Seeder
     {
         User::truncate();
         $admins = [
-            ['SWS Support', 'swssupport@gmail.com', 'SupportSWS123!'],
+            ['SWS Admin', 'admin.swsweb@gmail.com', 'AdminSWS123!'],
         ];
         foreach ($admins as $item) {
             DB::table('users')->insert([
